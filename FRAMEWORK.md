@@ -228,6 +228,19 @@ Skeleton; gated on this framework being accepted.
 > human prompting. We are not there yet; this section records the target and the constraints
 > it places on design, so future iterations build **toward** autonomy instead of away from it.
 
+### Operating model — the 80/20 rule (baseline split)
+The human re-framed autonomy as a **working split, not an all-or-nothing**:
+- **Agent manages ~80% of the repo management** — routine curation, source capture, validation,
+  catalog + index maintenance, commit/push/publish, and the defined safe workflow.
+- **Human handles ~20%** — the judgement calls that genuinely need a person: policy decisions,
+  first content of a new category, medical/security/legal exposure, PWA UX, public-launch
+  surface, anything that crosses a hard constraint.
+
+"80/20" is the **baseline**, not a contract — the human stays in the loop exactly where their
+guidance adds value, and the agent takes over everything that doesn't need it. The goal is to
+keep widening the agent's 80% (via the §9 backlog) while keeping the 20% crisp about when to
+stop and ask.
+
 ### Target behaviour (what "autonomy" means here)
 - **Self-maintaining content:** an agent can add new reference docs + templates for a
   category end-to-end — fetch sources, pass the 4 validation gates, update `catalog.json`
@@ -274,3 +287,4 @@ Skeleton; gated on this framework being accepted.
 | 2026-09-05 | **Standalone-repo decision** + medical-public gate resolved. | DECIDED |
 | 2026-09-06 | **Re-architected:** private tier REMOVED → three-part model (Reference / Template / Filled-data-as-file). JSON canonical + Markdown render. No SQLite. Filled data backed up 3-2-1 via existing cold storage. | LOCKED |
 | 2026-09-06 | **Autonomy directive** (Sec 9): record eventual goal of running the repo autonomously — constraints (offline-first/no server, absolute filled-data rule, gates-as-floor, human keeps keys), what leans toward autonomy, and the autonomy backlog. | DIRECTED |
+| 2026-09-06 | **80/20 operating model** (Sec 9): agent runs **~80%** of repo management; human holds **~20%** for judgement calls (policy, first-of-category, medical/security/legal, UX, launch). Widen the 80; keep the 20 crisp on when to stop and ask. | LOCKED |
