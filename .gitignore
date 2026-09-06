@@ -1,0 +1,19 @@
+# === NEVER commit filled household data or secrets ===
+# These are the user-owned artifacts that must ALWAYS stay out of this public repo.
+
+# Filled-data files (the irreplaceable, sensitive part)
+household.json
+filled/
+*.filled.json
+
+# Secrets / local config / env
+.env
+*.env
+*.secret
+.keys/
+secrets/
+
+# Personal/local-only scratch
+.DS_Store
+*.local
+tmp/
