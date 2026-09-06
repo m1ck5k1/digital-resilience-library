@@ -51,6 +51,56 @@
       "license": "CC0",
       "priority": "-",
       "date": "2026-09-06"
+    },
+    {
+      "path": "library/reference/FOOD/README.md",
+      "category": "FOOD",
+      "part": "Reference (index)",
+      "title": "FOOD \u2014 Index",
+      "source": "DRL origin",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-06"
+    },
+    {
+      "path": "library/reference/FOOD/storage.md",
+      "category": "FOOD",
+      "part": "Reference",
+      "title": "FOOD \u2014 Storage & Building a Pantry",
+      "source": "Well-attested public-domain emergency-preparedness guidance",
+      "license": "Public-domain general guidance",
+      "priority": "T1",
+      "date": "2026-09-06"
+    },
+    {
+      "path": "library/reference/FOOD/preservation.md",
+      "category": "FOOD",
+      "part": "Reference",
+      "title": "FOOD \u2014 Preservation without Power",
+      "source": "Well-attested public-domain preservation methods",
+      "license": "Public-domain general guidance",
+      "priority": "T2",
+      "date": "2026-09-06"
+    },
+    {
+      "path": "library/reference/FOOD/sources-and-safe-hold.md",
+      "category": "FOOD",
+      "part": "Reference (confirm-first)",
+      "title": "FOOD \u2014 Sources & Safe-Hold Items",
+      "source": "DRL assessment",
+      "license": "DRL origin",
+      "priority": "T1",
+      "date": "2026-09-06"
+    },
+    {
+      "path": "library/templates/FOOD-pantry-plan.md",
+      "category": "FOOD",
+      "part": "Template",
+      "title": "FOOD \u2014 Household Pantry Plan (blank)",
+      "source": "DRL origin (blank scaffold)",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-06"
     }
   ]
 }
