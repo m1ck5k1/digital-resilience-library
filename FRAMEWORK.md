@@ -221,10 +221,56 @@ Skeleton; gated on this framework being accepted.
 
 ---
 
-## 9. Change log
+## 9. Autonomy directive (future-selves)
+
+> **Direction (2026-09-06):** the eventual goal is to run this repository **autonomously** —
+> an agent that maintains, validates, seeds, and publishes the library without step-by-step
+> human prompting. We are not there yet; this section records the target and the constraints
+> it places on design, so future iterations build **toward** autonomy instead of away from it.
+
+### Target behaviour (what "autonomy" means here)
+- **Self-maintaining content:** an agent can add new reference docs + templates for a
+  category end-to-end — fetch sources, pass the 4 validation gates, update `catalog.json`
+  and `library.json`, commit, push, and confirm the Pages deploy — **without** a human
+  approving each step.
+- **Self-governing:** the agent obeys `AGENTS.md` (never commit filled data/secrets, Reference
+  vs Template, licensing, medical gate) as hard rules, not suggestions.
+- **Publish-capable:** agent can trigger/deploy GitHub Pages and verify the live URL.
+
+### Constraints autonomy MUST respect (non-negotiable, carry forward)
+1. **Offline-first / no server.** Autonomy must not drift the library into a stateful service.
+   The reader stays static + cacheable; the "engine" can be automated, but the *artifact* is
+   files + Pages. (This is why MCP-server is deferred — tools-that-call, not things-that-live.)
+2. **Filled-data rule is absolute.** Autonomy must never write household data to the repo. If
+   it ever produces a filled/`household.json`, it must route to local/cold storage, never git.
+3. **Validation gates are the floor.** Autonomous additions must still pass all 4 gates +
+   the public-MED gate. Autonomy must not lower the bar to go faster.
+4. **Agent has the boundary but not the keys.** Autonomy is about *doing the safe, defined
+   work*; the human keeps review of anything that creates security/legal/medical exposure or
+   crosses the offline-first line.
+5. **Human taps remain for that which genuinely needs it** — first content of a new category,
+   PWA UX, medical policy, public-launch surface.
+
+### How design already leans toward autonomy
+- `AGENTS.md` = the operating contract any agent can read + obey (added 2026-09-06).
+- `llms.txt` + `catalog.json`/`library.json` + YAML frontmatter = machine-navigable structure
+  an agent can extend deterministically.
+- GitHub Actions Pages deploy = an automated publish path an agent can trigger.
+- Static reader + JSON index + deterministic gates = a loop that can be automated and verified.
+
+### What's still needed to reach autonomy (future-selves backlog)
+- Deterministic content-generation playbook (source→validate→commit→publish) the agent runs.
+- A validation CI/lint the agent uses instead of ad-hoc harnesses.
+- A policy decision gate for "first content of a category" and any medical/security additions.
+- Live smoke-test of the autonomous publish path E2E.
+
+---
+
+## 10. Change log
 | Date | Change | Status |
 |------|--------|--------|
 | 2026-09-05 | Created framework (decision/scoping). | Framework — PENDING |
 | 2026-09-05 | Public/Private tier model introduced. | Superseded |
 | 2026-09-05 | **Standalone-repo decision** + medical-public gate resolved. | DECIDED |
 | 2026-09-06 | **Re-architected:** private tier REMOVED → three-part model (Reference / Template / Filled-data-as-file). JSON canonical + Markdown render. No SQLite. Filled data backed up 3-2-1 via existing cold storage. | LOCKED |
+| 2026-09-06 | **Autonomy directive** (Sec 9): record eventual goal of running the repo autonomously — constraints (offline-first/no server, absolute filled-data rule, gates-as-floor, human keeps keys), what leans toward autonomy, and the autonomy backlog. | DIRECTED |

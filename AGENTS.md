@@ -53,6 +53,20 @@ public, offline-first survival/resilience knowledge base. Read and obey the rule
 - Keep Markdown files under `library/`. Keep build/capture scripts under `tools/`.
 - Follow the existing doc header format (category, part, source, license, date).
 
+## Autonomy mandate (direction of record)
+The eventual goal is to run this repo **autonomously** — self-maintaining content (fetch →
+validate → catalog → commit → publish), self-governed by this file + `FRAMEWORK.md` §9, and
+publish-capable via GitHub Pages. That direction shapes how work is done even before full
+autonomy is reached:
+- **Prefer deterministic, repeatable steps** an agent can run without a human deciding each one.
+- **Never lower a gate** to go faster — the 4 validation gates + MED gate are the floor.
+- **Never write filled household data to the repo** — that is absolute, autonomy or not.
+- **Keep the reader static + offline-first**, no stateful service (MCP/backends are deferred).
+- **Human keeps the keys**: security/legal/medical exposure or first-of-a-new-category content
+  is exactly where a human decision stays in the loop.
+
+See `FRAMEWORK.md` §9 for the full autonomy directive and backlog.
+
 ## Diagnostic doctrine
 - Back up before mutating config/system paths (not typical here, but hold the discipline).
 - Verify by checking actual files/state, not by assumption. Confirm a commit pushed to the
