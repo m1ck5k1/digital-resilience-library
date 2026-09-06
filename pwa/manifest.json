@@ -1,0 +1,16 @@
+{
+  "name": "Digital Resilience Library",
+  "short_name": "DRL",
+  "start_url": "/digital-resilience-library/pwa/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e293b",
+  "scope": "/digital-resilience-library/",
+  "icons": [
+    {
+      "src": "/digital-resilience-library/pwa/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

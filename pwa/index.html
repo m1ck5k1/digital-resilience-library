@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital Resilience Library</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    :root { --bg: #0f172a; --surface: #1e293b; --text: #e2e8f0; --accent: #38bdf8; --border: #334155; --muted: #64748b; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: var(--bg); color: var(--text); padding: 1rem; min-height: 100dvh; }
+    header { margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.75rem; }
+    h1 { font-size: 1.5rem; color: var(--accent); }
+    .subtitle { color: #94a3b8; font-size: 0.875rem; margin-top: 0.25rem; }
+    .back { background: none; border: 1px solid var(--border); color: var(--accent); padding: 0.4rem 0.75rem; border-radius: 0.375rem; cursor: pointer; font-size: 0.875rem; white-space: nowrap; }
+    .back:hover { border-color: var(--accent); }
+    .connectivity-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; transition: background 0.3s; margin-left: auto; }
+    .connectivity-dot.online { background: #22c55e; box-shadow: 0 0 6px #22c55e66; }
+    .connectivity-dot.connecting { background: #f59e0b; box-shadow: 0 0 6px #f59e0b66; animation: pulse 1.5s infinite; }
+    .connectivity-dot.offline { background: #ef4444; }
+    .build-info { font-size: 0.65rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 120px; }
+    .refresh-btn { background: none; border: 1px solid var(--border); color: var(--accent); padding: 0.2rem 0.5rem; border-radius: 0.375rem; cursor: pointer; font-size: 1rem; line-height: 1; margin-left: 0.5rem; }
+    .refresh-btn:hover { border-color: var(--accent); background: var(--surface); }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    h2.category { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 1.5rem 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+    .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); margin-bottom: 1rem; }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 0.5rem; padding: 1.25rem; cursor: pointer; transition: border-color 0.2s; }
+    .card:hover { border-color: var(--accent); }
+    .card h3 { font-size: 1.125rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+    .card p { color: #94a3b8; font-size: 0.875rem; line-height: 1.5; }
+    .badge { display: inline-block; background: var(--accent); color: #0f172a; font-size: 0.75rem; padding: 0.125rem 0.5rem; border-radius: 999px; font-weight: 600; }
+    .badge-reference { background: #3b82f6; }
+    .badge-template { background: #a855f7; }
+    .badge-index { background: #22c55e; }
+    .status { font-size: 0.75rem; color: var(--muted); margin-top: 0.5rem; }
+    .empty { text-align: center; padding: 3rem 1rem; color: var(--muted); }
+    #search { width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--border); border-radius: 0.375rem; background: var(--surface); color: var(--text); font-size: 1rem; margin-bottom: 1.5rem; outline: none; }
+    #search:focus { border-color: var(--accent); }
+    #search::placeholder { color: var(--muted); }
+    #detail { display: none; }
+    #detail.visible { display: block; }
+    #list.hidden { display: none; }
+    #detail article { line-height: 1.7; font-size: 0.95rem; }
+    #detail article h1 { font-size: 1.5rem; margin: 1.5rem 0 0.75rem; color: var(--accent); }
+    #detail article h2 { font-size: 1.2rem; margin: 1.25rem 0 0.5rem; color: #e2e8f0; border-bottom: 1px solid var(--border); padding-bottom: 0.25rem; }
+    #detail article h3 { font-size: 1.05rem; margin: 1rem 0 0.5rem; color: #cbd5e1; }
+    #detail article p { margin: 0.5rem 0; }
+    #detail article ul, #detail article ol { margin: 0.5rem 0; padding-left: 1.5rem; }
+    #detail article li { margin: 0.25rem 0; }
+    #detail article code { background: #1e293b; padding: 0.125rem 0.375rem; border-radius: 0.25rem; font-size: 0.85em; }
+    #detail article pre { background: #0f172a; border: 1px solid var(--border); border-radius: 0.5rem; padding: 1rem; overflow-x: auto; margin: 0.75rem 0; }
+    #detail article pre code { background: none; padding: 0; border-radius: 0; }
+    #detail article blockquote { border-left: 3px solid var(--accent); padding-left: 1rem; margin: 0.75rem 0; color: #94a3b8; }
+    #detail article table { border-collapse: collapse; width: 100%; margin: 0.75rem 0; font-size: 0.85rem; }
+    #detail article th, #detail article td { border: 1px solid var(--border); padding: 0.5rem 0.75rem; text-align: left; }
+    #detail article th { background: var(--surface); color: var(--accent); }
+    #detail article hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+    #detail article a { color: var(--accent); }
+    #detail article input[type="checkbox"] { margin-right: 0.5rem; }
+    #detail .loading { text-align: center; padding: 3rem; color: var(--muted); }
+    #detail .error { text-align: center; padding: 3rem; color: #ef4444; }
+    .note { background: #1e293b; border: 1px solid var(--border); border-left: 3px solid #f59e0b; border-radius: 0.375rem; padding: 0.75rem 1rem; color: #94a3b8; font-size: 0.85rem; margin-bottom: 1rem; }
+    @media (prefers-color-scheme: light) {
+      :root { --bg: #f8fafc; --surface: #ffffff; --text: #1e293b; --border: #e2e8f0; --muted: #64748b; }
+      #detail article pre { background: #f1f5f9; }
+      #detail article code { background: #f1f5f9; }
+      .note { background: #fff7ed; border-color: #fed7aa; }
+    }
+  </style>
+</head>
+<body>
+  <header id="header-list">
+    <h1>Digital Resilience Library</h1>
+    <span id="build-info" class="build-info" title="Build: __BUILD_SHA__ | __BUILD_DATE__"></span>
+    <span id="connectivity-dot" class="connectivity-dot connecting" title="Checking connectivity..."></span>
+    <button id="refresh-btn" class="refresh-btn" onclick="refreshPWA()" title="Check for updates">↻</button>
+  </header>
+  <header id="header-detail" style="display:none">
+    <button class="back" onclick="showList()">← Back</button>
+    <span id="detail-title" style="font-weight:600;font-size:1.1rem"></span>
+    <span id="connectivity-dot-detail" class="connectivity-dot connecting" title="Checking connectivity..."></span>
+  </header>
+
+  <div id="list">
+    <div class="note"><strong>Offline-first.</strong> You read your own filled data only; this library holds public reference docs + <em>blank</em> household templates. Save a copy before filling — fill on your device, never here.</div>
+    <input type="text" id="search" placeholder="Search the library..." oninput="filterDocs()">
+    <div id="container"></div>
+  </div>
+
+  <div id="detail">
+    <div class="loading" id="detail-loading">Loading...</div>
+    <div class="error" id="detail-error" style="display:none">Failed to load document.</div>
+    <article id="detail-content"></article>
+  </div>
+
+  <script>
+    let docs = [];
+    // Docs are referenced repo-root-relative (library/reference/...); the PWA lives at /pwa/.
+    const BASE = '/digital-resilience-library/';
+    const docPath = (p) => BASE + p;
+
+    // Simple markdown → HTML renderer (adapts the playbook PWA renderer; strips frontmatter)
+    function mdToHtml(text) {
+      // Strip leading YAML frontmatter (--- ... ---)
+      text = text.replace(/^\u002d\u002d\u002d\n[\s\S]*?\n\u002d\u002d\u002d\n/, '');
+      // Normalize line endings (repo uses CRLF)
+      text = text.replace(/\r\n/g, '\n');
+      // Escape HTML entities first
+      text = text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+      // Code blocks (fenced)
+      text = text.replace(/```(\w*)\n([\s\S]*?)```/g, (_, lang, code) => {
+        return `<pre><code class="lang-${lang}">${code.trim()}</code></pre>`;
+      });
+
+      // Inline code
+      text = text.replace(/`([^`]+)`/g, '<code>$1</code>');
+
+      // Headings
+      text = text.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+      text = text.replace(/^## (.+)$/gm, '<h2>$1</h2>');
+      text = text.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+
+      // Horizontal rules
+      text = text.replace(/^---$/gm, '<hr>');
+
+      // Blockquotes
+      text = text.replace(/^&gt; (.+)$/gm, '<blockquote>$1</blockquote>');
+      text = text.replace(/<\/blockquote>\n<blockquote>/g, '<br>');
+
+      // Checkboxes
+      text = text.replace(/- \[ \]/g, '<input type="checkbox" disabled>');
+      text = text.replace(/- \[x\]/g, '<input type="checkbox" checked disabled>');
+
+      // Unordered lists
+      text = text.replace(/^- (.+)$/gm, '<li>$1</li>');
+      text = text.replace(/(<li>.*<\/li>\n?)+/g, '<ul>$&</ul>');
+
+      // Ordered lists
+      text = text.replace(/^\d+\. (.+)$/gm, '<li>$1</li>');
+
+      // Bold + italic
+      text = text.replace(/\*\*\*(.+?)\*\*\*/g, '<strong><em>$1</em></strong>');
+      text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+      text = text.replace(/\*(.+?)\*/g, '<em>$1</em>');
+
+      // Links
+      text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+
+      // Tables
+      text = text.replace(/(\|[^\n]+\|\n\|[-| :]+\|\n(\|[^\n]+\|\n?)+)/g, (match) => {
+        const rows = match.split('\n').filter(r => r.trim());
+        if (rows.length < 2) return match;
+        let html = '<table>';
+        const headers = rows[0].split('|').filter(c => c.trim());
+        html += '<thead><tr>' + headers.map(h => '<th>' + h.trim() + '</th>').join('') + '</tr></thead>';
+        html += '<tbody>';
+        for (let i = 2; i < rows.length; i++) {
+          const cells = rows[i].split('|').filter(c => c.trim());
+          html += '<tr>' + cells.map(c => '<td>' + c.trim() + '</td>').join('') + '</tr>';
+        }
+        html += '</tbody></table>';
+        return html;
+      });
+
+      // Paragraphs
+      const lines = text.split('\n');
+      let result = [];
+      let inBlock = false;
+      for (let i = 0; i < lines.length; i++) {
+        const l = lines[i];
+        if (l.startsWith('<') || l.trim() === '') {
+          if (inBlock) { result.push('</p>'); inBlock = false; }
+          result.push(l);
+          continue;
+        }
+        if (!inBlock) { result.push('<p>'); inBlock = true; }
+        result.push(l);
+      }
+      if (inBlock) result.push('</p>');
+      return result.join('\n');
+    }
+
+    async function loadDocs() {
+      try {
+        const resp = await fetch('library.json');
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const data = await resp.json();
+        docs = data.artifacts || [];
+        renderDocs(docs);
+      } catch (e) {
+        document.getElementById('container').innerHTML =
+          '<div class="empty"><h2>Offline</h2><p>Cached library docs will appear when back online.</p></div>';
+        caches.match('library.json').then(r => {
+          if (r) r.json().then(d => { docs = d.artifacts || []; renderDocs(docs); });
+        });
+      }
+    }
+
+    function openDoc(item) {
+      const path = item.path;
+      document.getElementById('detail-title').textContent = item.title || item.path;
+      document.getElementById('detail-content').innerHTML = '';
+      document.getElementById('detail-loading').style.display = 'block';
+      document.getElementById('detail-error').style.display = 'none';
+      document.getElementById('detail').classList.add('visible');
+      document.getElementById('list').classList.add('hidden');
+      document.getElementById('header-list').style.display = 'none';
+      document.getElementById('header-detail').style.display = 'flex';
+
+      fetch(docPath(path))
+        .then(r => {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.text();
+        })
+        .then(md => showMd(md))
+        .catch(() => {
+          document.getElementById('detail-loading').style.display = 'none';
+          document.getElementById('detail-error').style.display = 'block';
+        });
+    }
+
+    function showMd(md) {
+      document.getElementById('detail-loading').style.display = 'none';
+      document.getElementById('detail-content').innerHTML = mdToHtml(md);
+    }
+
+    function showList() {
+      document.getElementById('detail').classList.remove('visible');
+      document.getElementById('list').classList.remove('hidden');
+      document.getElementById('header-list').style.display = 'flex';
+      document.getElementById('header-detail').style.display = 'none';
+      document.getElementById('detail-content').innerHTML = '';
+    }
+
+    function partFor(item) {
+      const p = (item.part || '').toLowerCase();
+      if (p.includes('index')) return 'index';
+      if (p.includes('template')) return 'template';
+      return 'reference';
+    }
+
+    function renderDocs(list) {
+      const container = document.getElementById('container');
+      if (!list || list.length === 0) {
+        container.innerHTML = '<div class="empty"><h2>No docs yet</h2></div>';
+        return;
+      }
+      const groups = {};
+      for (const item of list) {
+        const cat = item.category || 'General';
+        if (!groups[cat]) groups[cat] = [];
+        groups[cat].push(item);
+      }
+      let html = '';
+      for (const [cat, items] of Object.entries(groups)) {
+        html += `<h2 class="category">${cat}</h2><div class="grid">`;
+        for (const item of items) {
+          const badge = partFor(item);
+          const badgeClass = badge === 'template' ? 'badge-template' : (badge === 'index' ? 'badge-index' : 'badge-reference');
+          const label = badge === 'template' ? 'Template' : (badge === 'index' ? 'Index' : 'Reference');
+          html += `<div class="card" onclick="openDoc(docs.find(d=>d.path==='${item.path}'))">
+            <h3>${item.title || item.path} <span class="badge ${badgeClass}">${label}</span></h3>
+            ${item.source ? `<p>${item.source}</p>` : ''}
+            <div class="status">${item.priority && item.priority !== '-' ? 'Priority ' + item.priority + ' · ' : ''}${item.date || ''}</div>
+          </div>`;
+        }
+        html += '</div>';
+      }
+      container.innerHTML = html;
+    }
+
+    function filterDocs() {
+      const q = document.getElementById('search').value.toLowerCase();
+      if (!q) { renderDocs(docs); return; }
+      const filtered = docs.filter(d =>
+        (d.title + ' ' + (d.source||'') + ' ' + d.category + ' ' + d.path).toLowerCase().includes(q)
+      );
+      renderDocs(filtered);
+    }
+
+    // Connectivity indicator
+    function setConnectivity(state) {
+      var dots = document.querySelectorAll('.connectivity-dot');
+      dots.forEach(function(dot) {
+        dot.className = "connectivity-dot " + state;
+        dot.title = state.charAt(0).toUpperCase() + state.slice(1);
+      });
+    }
+    setConnectivity(navigator.onLine ? "online" : "offline");
+    window.addEventListener("online", function() { setConnectivity("online"); });
+    window.addEventListener("offline", function() { setConnectivity("offline"); });
+
+    // Build info (injected by deploy workflow)
+    var buildInfo = document.getElementById('build-info');
+    if (buildInfo) {
+      var sha = '__BUILD_SHA__';
+      var date = '__BUILD_DATE__';
+      if (sha.startsWith('__BUILD')) {
+        buildInfo.textContent = 'dev build';
+      } else {
+        buildInfo.textContent = sha.substring(0, 7) + ' | ' + date;
+      }
+    }
+
+    // Refresh button
+    function refreshPWA() {
+      var btn = document.getElementById('refresh-btn');
+      btn.textContent = '⟳';
+      btn.disabled = true;
+      if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+        navigator.serviceWorker.controller.postMessage({action: 'refresh'});
+      }
+      loadDocs();
+      setTimeout(function() {
+        btn.textContent = '↻';
+        btn.disabled = false;
+      }, 3000);
+    }
+
+    loadDocs();
+
+    // Register service worker for offline support
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+        .then(() => console.log('SW registered'))
+        .catch(e => console.warn('SW registration failed:', e));
+    }
+  </script>
+</body>
+</html>
