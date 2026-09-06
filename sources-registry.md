@@ -1,12 +1,11 @@
 # Source Registry — Digital Resilience Library
 
-> **Status:** EMPTY — populated during the content phase (deliberately, after the framework
-> is accepted). Each entry must carry a **license** + **part** (Reference/Template) so only
-> redistributable material enters the public library.
->
 > Schema per entry:
-> `name | url | category | part | license/terms | authority | format | priority(T1-T3) | last-checked | status`
+> `name | url | category | part | license/terms | authority | format | priority | last-checked | status`
 
 | name | url | category | part | license/terms | authority | format | priority | last-checked | status |
 |------|-----|----------|------|---------------|-----------|--------|----------|-------------|--------|
-| _(pending — content phase)_ | | | | | | | | | |
+| Making Water Safe in an Emergency | https://www.cdc.gov/healthywater/emergency/making-water-safe.html | WATER | Reference | US-federal public-domain practice (redistributable w/ attribution) | CDC | HTML/Markdown | T1 | 2026-09-06 | ACTIVE |
+| Water Storage & Preparedness baseline | (FEMA/Ready.gov general practice; see storage.md attribution) | WATER | Reference | US-federal | FEMA/Ready.gov | Markdown | T1 | 2026-09-06 | ACTIVE |
+| Emergency Disinfection (boil/bleach cross-check) | https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water | WATER | Reference | US-federal | EPA | HTML | T1 | 2026-09-06 | ACTIVE |
+| Household WATER supply template | (in-repo `library/templates/WATER-household-supply.md`) | WATER | Template | Original CC0 | DRL | Markdown | — | 2026-09-06 | ACTIVE |
