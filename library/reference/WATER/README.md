@@ -1,3 +1,11 @@
+---
+title: WATER — Index
+category: WATER
+part: Reference (index)
+source: DRL origin
+license: CC0
+date: 2026-09-06
+---
 # WATER — Index
 
 > Category: **WATER** · Reference + one Template.

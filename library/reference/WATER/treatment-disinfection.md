@@ -1,3 +1,12 @@
+---
+title: Water — Emergency Treatment & Disinfection
+category: WATER
+part: Reference
+source: CDC — Making Water Safe in an Emergency
+license: US-federal public-domain practice (attribution preserved)
+date: 2026-09-06
+priority: T1
+---
 # Water — Emergency Treatment & Disinfection
 
 > Category: **WATER** · Part: **Reference** (public)

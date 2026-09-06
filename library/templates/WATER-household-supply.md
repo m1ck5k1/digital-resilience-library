@@ -1,3 +1,11 @@
+---
+title: WATER — Household Supply Plan (Template)
+category: WATER
+part: Template
+source: DRL origin (blank scaffold)
+license: CC0
+date: 2026-09-06
+---
 # WATER — Household Supply Plan (Template)
 
 > **What this is:** a blank scaffold to capture YOUR household's water readiness. Fill it in

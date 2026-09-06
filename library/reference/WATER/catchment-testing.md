@@ -1,3 +1,12 @@
+---
+title: Water — Catchment & Testing
+category: WATER
+part: Reference
+source: General emergency-water practice (CDC baseline)
+license: General guidance
+date: 2026-09-06
+priority: T2
+---
 # Water — Catchment & Testing
 
 > Category: **WATER** · Part: **Reference** (public)

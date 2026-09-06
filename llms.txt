@@ -1,0 +1,37 @@
+# Digital Resilience Library
+
+> Public, vetted, offline-first survival & resilience knowledge. Reference how-tos +
+> blank household templates. Filled household data never lives here — it stays with the user.
+
+## About
+A curated library of authoritative survival/resilience reference material (medical, water,
+food, energy, shelter, sanitation, navigation) plus fill-in-the-blank household-plan
+templates. Value-over-volume, human-sourced, offline-first, versioned + integrity-checked.
+Designed to be **AI-aware** — see `AGENTS.md` for the operating rules.
+
+## Key files & structure
+- `FRAMEWORK.md` — governing design & decisions (three-part model: Reference / Template / user's JSON filled-data)
+- `AGENTS.md` — rules for AI agents operating on this repo
+- `CATEGORIES.md` — taxonomy + Reference/Template mapping
+- `sources-registry.md` — live source catalog (license + part per entry)
+- `library/catalog.json` — machine-readable navigation index (path, category, part, source, license)
+- `library/reference/` — public reference docs
+- `library/templates/` — public blank household templates
+- `retrieval/RUNBOOK.md` — capture + validation steps
+- `tools/` — capture/validate scripts
+
+## Content — WATER (seeded pilot)
+- `library/reference/WATER/README.md` — WATER index
+- `library/reference/WATER/treatment-disinfection.md` — boil / bleach / tablets / filters; CDC dosing
+- `library/reference/WATER/storage.md` — storage, rotation, backup sources
+- `library/reference/WATER/catchment-testing.md` — rainwater/emergency collection + safety method
+- `library/templates/WATER-household-supply.md` — blank household water plan
+
+## Core principles
+- Value over volume · human-sourced, human-verifiable · offline-first · versioned + checksummed
+- **No household-private data in this repo** (filled data = user-owned JSON, backed up by user)
+- Reference vs Template: universal knowledge is shared; household specifics are scaffolded, never collected
+- Medical public content = T1 institutional sources only + "not medical advice"
+
+## Network/link summary
+Public repo + hosted reader: https://m1ck5k1.github.io/digital-resilience-library/

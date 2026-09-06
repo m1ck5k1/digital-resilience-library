@@ -1,3 +1,12 @@
+---
+title: Water — Storage & Stockpiling
+category: WATER
+part: Reference
+source: US federal preparedness baseline (FEMA/Ready.gov practice)
+license: US-federal public-domain practice
+date: 2026-09-06
+priority: T1
+---
 # Water — Storage & Stockpiling
 
 > Category: **WATER** · Part: **Reference** (public)
