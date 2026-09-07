@@ -27,6 +27,16 @@ Designed to be **AI-aware** — see `AGENTS.md` for the operating rules.
 - `library/reference/WATER/catchment-testing.md` — rainwater/emergency collection + safety method
 - `library/templates/WATER-household-supply.md` — blank household water plan
 
+## Content — ENERGY (off-grid / backup power)
+- `library/reference/ENERGY/README.md` — ENERGY index
+- `library/reference/ENERGY/backup-power-generators.md` — portable generators: CO hazard, safe placement, CO alarms, electrical/fuel safety
+
+## Content — SAN (sanitation & hygiene)
+- `library/reference/SAN/README.md` — SAN index
+- `library/reference/SAN/emergency-water-quantity.md` — water needs per person/day; safe water (boil / bleach / tablets)
+- `library/reference/SAN/hand-hygiene.md` — critical hand-washing moments; soap vs ash
+- `library/reference/SAN/excreta-disposal.md` — trench & pit latrines; well ≥15 m from sanitation
+
 ## Core principles
 - Value over volume · human-sourced, human-verifiable · offline-first · versioned + checksummed
 - **No household-private data in this repo** (filled data = user-owned JSON, backed up by user)

@@ -14,3 +14,11 @@
 | Preservation without Power (methods) | (extension/community general baseline; see preservation.md) | FOOD | Reference | Public-domain general guidance | Extension services | Markdown | T2 | 2026-09-06 | ACTIVE |
 | **Safe-hold verify-items** (canning tables, shelf-life, curing) | (see `library/reference/FOOD/sources-and-safe-hold.md`) | FOOD | Reference (confirm-first) | PENDING live-source verification | USDA/FSIS/extension | Markdown | T1 | 2026-09-06 | **HOLD** |
 | Household FOOD pantry template | (in-repo `library/templates/FOOD-pantry-plan.md`) | FOOD | Template | Original CC0 | DRL | Markdown | — | 2026-09-06 | ACTIVE |
+| Carbon Monoxide Poisoning: Protect Your Family and Yourself | https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxide-poisoning-protect-your-family-and-yourself-factsheet | ENERGY | Reference | US-federal public domain | EPA | HTML | T1 | 2026-09-07 | ACTIVE |
+| Where to Safely Use a Fuel-Powered Portable Generator | https://www.epa.gov/emergencies-iaq/where-safely-use-fuel-powered-portable-generator-infographic | ENERGY | Reference | US-federal public domain | EPA | HTML/infographic | T1 | 2026-09-07 | ACTIVE |
+| Power Outages | https://www.ready.gov/power-outages | ENERGY | Reference | US-federal public domain | FEMA/Ready.gov | HTML | T1 | 2026-09-07 | ACTIVE |
+| Carbon Monoxide Information Center | https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center | ENERGY | Reference | US-federal public domain | CPSC | HTML | T1 | 2026-09-07 | ACTIVE (via Internet Archive 2021-12-26 capture; live site bot-blocks) |
+| Emergency Water Quantity | https://www.ready.gov/water | SAN | Reference | US-federal public domain | FEMA/Ready.gov | HTML | T1 | 2026-09-07 | ACTIVE |
+| Water & environmental sanitation for disaster management | https://iris.who.int/handle/10665/205479 | SAN | Reference | WHO IRIS (non-commercial; attributed, paraphrased) | WHO | PDF/Markdown | T1 | 2026-09-07 | ACTIVE |
+| Drinking-water / Sanitation / Diarrhoeal-disease fact sheets | https://www.who.int/news-room/fact-sheets | SAN | Reference | WHO fact sheets (CC BY-NC-SA; attributed, paraphrased) | WHO | HTML | T1 | 2026-09-07 | ACTIVE |
+
