@@ -162,6 +162,86 @@
       "license": "Public-domain/WHO practice (attributed, paraphrased)",
       "priority": "T1",
       "date": "2026-09-07"
+    },
+    {
+      "path": "library/templates/ENERGY-household-backup-plan.md",
+      "category": "ENERGY",
+      "part": "Template",
+      "title": "Energy — Household Off-Grid Backup Plan (blank)",
+      "source": "DRL origin (blank scaffold)",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-07"
+    },
+    {
+      "path": "library/reference/NAV/README.md",
+      "category": "NAV",
+      "part": "Reference (index)",
+      "title": "NAV — Index",
+      "source": "DRL origin",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-07"
+    },
+    {
+      "path": "library/reference/NAV/map-compass-lost.md",
+      "category": "NAV",
+      "part": "Reference",
+      "title": "Navigation — Map & Compass (Lost-Proofing)",
+      "source": "US Army FM 3-25.26 & FM 21-76",
+      "license": "Public domain (US Government work)",
+      "priority": "T1",
+      "date": "2026-09-07"
+    },
+    {
+      "path": "library/reference/NAV/natural-navigation.md",
+      "category": "NAV",
+      "part": "Reference",
+      "title": "Navigation — Natural Navigation (Sun, Stars, Shadow)",
+      "source": "US Army FM 21-76 & FM 3-25.26",
+      "license": "Public domain (US Government work)",
+      "priority": "T1",
+      "date": "2026-09-07"
+    },
+    {
+      "path": "library/reference/NAV/emergency-signaling.md",
+      "category": "NAV",
+      "part": "Reference",
+      "title": "Navigation — Emergency Signaling (Be Seen, Be Heard)",
+      "source": "US Army FM 21-76",
+      "license": "Public domain (US Government work)",
+      "priority": "T1",
+      "date": "2026-09-07"
+    },
+    {
+      "path": "library/reference/SHELTER/README.md",
+      "category": "SHELTER",
+      "part": "Reference (index)",
+      "title": "SHELTER — Index",
+      "source": "DRL origin",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-07"
+    },
+    {
+      "path": "library/reference/SHELTER/cold-survival-hypothermia.md",
+      "category": "SHELTER",
+      "part": "Reference",
+      "title": "Shelter & Heat — Cold Survival & Hypothermia",
+      "source": "CDC/NIOSH; NOAA NWS; Red Cross; FM 21-76",
+      "license": "Public-domain/institutional (attributed); not medical advice",
+      "priority": "T1",
+      "date": "2026-09-07"
+    },
+    {
+      "path": "library/reference/SHELTER/emergency-shelter.md",
+      "category": "SHELTER",
+      "part": "Reference",
+      "title": "Shelter & Heat — Emergency & Improvised Shelter",
+      "source": "US Army FM 21-76",
+      "license": "Public domain (US Government work)",
+      "priority": "T1",
+      "date": "2026-09-07"
     }
   ]
 }

@@ -22,3 +22,9 @@
 | Water & environmental sanitation for disaster management | https://iris.who.int/handle/10665/205479 | SAN | Reference | WHO IRIS (non-commercial; attributed, paraphrased) | WHO | PDF/Markdown | T1 | 2026-09-07 | ACTIVE |
 | Drinking-water / Sanitation / Diarrhoeal-disease fact sheets | https://www.who.int/news-room/fact-sheets | SAN | Reference | WHO fact sheets (CC BY-NC-SA; attributed, paraphrased) | WHO | HTML | T1 | 2026-09-07 | ACTIVE |
 
+| FM 3-25.26 Map Reading and Land Navigation (2001) | https://archive.org/details/FM_3_25_26_M_R_L_N_2001 | NAV | Reference | Public domain (US Army, approved for public release) | US Dept. of the Army | PDF | T1 | 2026-09-07 | ACTIVE |
+| FM 21-76 Survival Manual | https://archive.org/details/FM2176USARMYSURVIVALMANUAL | NAV/SHELTER | Reference | Public domain (US Army) | US Dept. of the Army | PDF | T1 | 2026-09-07 | ACTIVE |
+| Prevent Hypothermia & Frostbite (Winter Weather) | https://www.cdc.gov/disasters/winter/staysafe/hypothermia.html | SHELTER | Reference | US gov public domain (via Wayback replay; live bot-blocks) | CDC | HTML | T1 | 2026-09-07 | ACTIVE |
+| NIOSH Cold Stress: Types, Causes, Preparation | https://www.cdc.gov/niosh/cold-stress/about/index.html | SHELTER | Reference | US gov public domain (via Wayback replay) | CDC/NIOSH | HTML | T1 | 2026-09-07 | ACTIVE |
+| NOAA NWS — Understanding Wind Chill | https://www.weather.gov/safety/cold-wind-chill-chart | SHELTER | Reference | US gov public domain | NOAA/NWS | HTML | T1 | 2026-09-07 | ACTIVE |
+| American Red Cross — Winter Storm Preparedness | https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm.html | SHELTER | Reference | Red Cross (redistributable w/ attribution) | American Red Cross | HTML | T1 | 2026-09-07 | ACTIVE |

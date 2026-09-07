@@ -9,7 +9,7 @@ date: 2026-09-07
 
 # ENERGY — Index
 
-> Category: **ENERGY** · Reference.
+> Category: **ENERGY** · Reference + one Template.
 
 Third seeded category. Chain of priority: **water → food → energy**. Once hydration and
 calories are secured, a household can keep itself functional through an outage — but only if
@@ -21,6 +21,11 @@ the power-safety fundamentals (above all, carbon monoxide) are handled correctly
   to run indoors. Grounded in EPA / Ready.gov-FEMA / CPSC.
 - *(not yet)* generator **sizing / run-time** and **fuel-storage limits** — held at the review
   gate until verified against a current source (see the doc's "Not covered" section).
+
+## Household template (`library/templates/`)
+- [`ENERGY-household-backup-plan.md`](../templates/ENERGY-household-backup-plan.md) — fill in YOUR
+  backup-power source, run-time plan, CO-safety checklist, and load priorities. Fill locally;
+  your answers never go in this repo.
 
 ## Place in the build order
 WATER → FOOD → ENERGY → (SHELTER, SAN, NAV…) are the agreed seed order. ENERGY reference is

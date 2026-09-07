@@ -37,6 +37,17 @@ Designed to be **AI-aware** — see `AGENTS.md` for the operating rules.
 - `library/reference/SAN/hand-hygiene.md` — critical hand-washing moments; soap vs ash
 - `library/reference/SAN/excreta-disposal.md` — trench & pit latrines; well ≥15 m from sanitation
 
+## Content — NAV (navigation & survival)
+- `library/reference/NAV/README.md` — NAV index
+- `library/reference/NAV/map-compass-lost.md` — azimuths, declination, pace count, SURVIVAL lost-procedure
+- `library/reference/NAV/natural-navigation.md` — sun / shadow / watch / North Star / Southern Cross
+- `library/reference/NAV/emergency-signaling.md` — signal fires, mirror, flares, whistle, ground-to-air, SOS
+
+## Content — SHELTER (emergency shelter & cold survival)
+- `library/reference/SHELTER/README.md` — SHELTER index
+- `library/reference/SHELTER/cold-survival-hypothermia.md` — hypothermia recognition/first aid, frostbite, wind chill, layering (not medical advice)
+- `library/reference/SHELTER/emergency-shelter.md` — BLISS site doctrine, keep-it-small rule, lean-to, snow shelters, CO/ventilation
+
 ## Core principles
 - Value over volume · human-sourced, human-verifiable · offline-first · versioned + checksummed
 - **No household-private data in this repo** (filled data = user-owned JSON, backed up by user)
