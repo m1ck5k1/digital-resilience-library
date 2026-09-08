@@ -242,6 +242,36 @@
       "license": "Public domain (US Government work)",
       "priority": "T1",
       "date": "2026-09-07"
+    },
+    {
+      "path": "library/reference/MED/README.md",
+      "category": "MED",
+      "part": "Reference (index)",
+      "title": "MED — Index",
+      "source": "DRL origin",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/MED/emergency-response-cpr-stroke.md",
+      "category": "MED",
+      "part": "Reference",
+      "title": "Medical & First Aid — Emergency Response, Recognition & Basic CPR",
+      "source": "American Red Cross; CDC; WHO",
+      "license": "Institutional guidance (attributed); not medical advice",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/templates/MED-household-health-plan.md",
+      "category": "MED",
+      "part": "Template",
+      "title": "MED — Household Emergency Health Plan (blank)",
+      "source": "DRL origin (blank scaffold)",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-07"
     }
   ]
 }

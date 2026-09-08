@@ -50,6 +50,11 @@ Designed to be **AI-aware** — see `AGENTS.md` for the operating rules.
 - `library/reference/SHELTER/cold-survival-hypothermia.md` — hypothermia recognition/first aid, frostbite, wind chill, layering (not medical advice)
 - `library/reference/SHELTER/emergency-shelter.md` — BLISS site doctrine, keep-it-small rule, lean-to, snow shelters, CO/ventilation
 
+## Content — MED (medical & first aid)
+- `library/reference/MED/README.md` — MED index
+- `library/reference/MED/emergency-response-cpr-stroke.md` — when to call 9-1-1, adult CPR (100–120/min, 30:2, ≥2 in), Hands-Only CPR, stroke F.A.S.T. (Red Cross/CDC/WHO; not medical advice)
+- `library/templates/MED-household-health-plan.md` — blank emergency health plan scaffold (members, contacts, meds, kit)
+
 ## Core principles
 - Value over volume · human-sourced, human-verifiable · offline-first · versioned + checksummed
 - **No household-private data in this repo** (filled data = user-owned JSON, backed up by user)

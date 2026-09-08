@@ -28,3 +28,9 @@
 | NIOSH Cold Stress: Types, Causes, Preparation | https://www.cdc.gov/niosh/cold-stress/about/index.html | SHELTER | Reference | US gov public domain (via Wayback replay) | CDC/NIOSH | HTML | T1 | 2026-09-07 | ACTIVE |
 | NOAA NWS — Understanding Wind Chill | https://www.weather.gov/safety/cold-wind-chill-chart | SHELTER | Reference | US gov public domain | NOAA/NWS | HTML | T1 | 2026-09-07 | ACTIVE |
 | American Red Cross — Winter Storm Preparedness | https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm.html | SHELTER | Reference | Red Cross (redistributable w/ attribution) | American Red Cross | HTML | T1 | 2026-09-07 | ACTIVE |
+
+| American Red Cross — CPR Steps (Adult) | https://www.redcross.org/take-a-class/cpr/cpr-steps | MED | Reference | Institutional (attributed) | American Red Cross | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback capture ~2026-09; page live) |
+| American Red Cross — Hands-Only CPR | https://www.redcross.org/get-help/how-to-prepare-for-emergencies/hands-only-cpr | MED | Reference | Institutional (attributed) | American Red Cross | HTML | T1 | 2026-09-08 | ACTIVE |
+| CDC — Stroke Signs and Symptoms / Act F.A.S.T. | https://www.cdc.gov/stroke/signs_symptoms.htm | MED | Reference | US gov public domain | CDC | HTML | T1 | 2026-09-08 | ACTIVE |
+| WHO — Stroke fact sheet | https://www.who.int/news-room/fact-sheets/detail/stroke | MED | Reference | WHO fact sheet (attributed) | WHO | HTML | T1 | 2026-09-08 | ACTIVE |
+| WHO — Cardiovascular Diseases fact sheet | https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases | MED | Reference | WHO fact sheet (attributed) | WHO | HTML | T1 | 2026-09-08 | ACTIVE |
