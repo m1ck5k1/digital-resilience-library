@@ -9,11 +9,17 @@ date: 2026-09-08
 
 # COMMS — Index
 
-> Category: **COMMS** · Communications · **Template only.**
+> Category: **COMMS** · Communications · Reference + Template.
 
 A communication plan is about *your* household's people, numbers, and meeting points. That's
 **household data**, so it stays **with you** (never in this repo) — the DRL provides a **blank
-scaffold** to build it.
+scaffold** for that, plus a **universal reference** on how the comms *modes* work.
+
+## Reference docs (public)
+- [`emergency-radio-comms-modes.md`](./emergency-radio-comms-modes.md) — the universal how-to:
+  **NOAA Weather Radio** (the seven 162 MHz channels), **amateur/ham** radio (licence, bands),
+  **FRS / GMRS / CB** (who needs a licence, channels, power limits), and **text-over-call +
+  out-of-area contact**. Grounded in NOAA/NWS, FCC, eCFR, ARRL, Red Cross.
 
 ## Household template (`library/templates/`)
 - [`COMMS-family-communication-plan.md`](../templates/COMMS-family-communication-plan.md)

@@ -52,3 +52,18 @@
 | OSHA 3080 — Hand and Power Tools | https://www.osha.gov/sites/default/files/publications/osha3080.pdf | LEARN | Reference | US gov public domain | OSHA | PDF | T1 | 2026-09-08 | ACTIVE (live 200) |
 | Wikipedia — Knots (Bowline, Clove hitch, Two half-hitches, Sheet bend, Reef knot, Taut-line hitch) | https://en.wikipedia.org/wiki/Bowline (and linked knot pages) | LEARN | Reference | CC BY-SA 4.0 (attributed) | Wikipedia | HTML (MediaWiki extracts) | T3 | 2026-09-08 | ACTIVE (live 200) |
 | LEARN category index | (in-repo `library/reference/LEARN/README.md`) | LEARN | Reference (index) | CC0 | DRL | Markdown | — | 2026-09-08 | ACTIVE |
+| Ready.gov — Hurricanes | https://www.ready.gov/hurricanes | SHELTER | Reference | US-gov public domain | DHS/FEMA | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback) |
+| Ready.gov — Tornadoes | https://www.ready.gov/tornadoes | SHELTER | Reference | US-gov public domain | DHS/FEMA | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback) |
+| Ready.gov — Floods | https://www.ready.gov/floods | SHELTER | Reference | US-gov public domain | DHS/FEMA | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback) |
+| Ready.gov — Shelter | https://www.ready.gov/shelter | SHELTER | Reference | US-gov public domain | DHS/FEMA | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback) |
+| US EIA — Energy Storage for Electricity Generation | https://www.eia.gov/energyexplained/electricity/energy-storage-for-electricity-generation.php | ENERGY | Reference | US-gov public domain | EIA | HTML | T1 | 2026-09-08 | ACTIVE (live 200) |
+| US DOE — Solar Photovoltaic Technology Basics | https://www.energy.gov/cmei/systems/solar-photovoltaic-technology-basics | ENERGY | Reference | US-gov public domain | DOE | HTML | T1 | 2026-09-08 | ACTIVE (live 200) |
+| Ready.gov — Power Outages | https://www.ready.gov/power-outages | ENERGY | Reference | US-gov public domain | DHS/FEMA | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback 20161021152240) |
+| US EPA — Household Hazardous Waste | https://www.epa.gov/hw/household-hazardous-waste-hhw | ENERGY | Reference | US-gov public domain | EPA | HTML | T1 | 2026-09-08 | ACTIVE (live 200) |
+| NOAA/NWS — NOAA Weather Radio | https://www.weather.gov/nwr/ | COMMS | Reference | US-gov public domain | NOAA/NWS | HTML | T1 | 2026-09-08 | ACTIVE (live 200) |
+| NOAA/NWS — NWR All Hazards | https://www.weather.gov/nwr/allhazards | COMMS | Reference | US-gov public domain | NOAA/NWS | HTML | T1 | 2026-09-08 | ACTIVE (live 200) |
+| ARRL — What is Ham Radio | https://www.arrl.org/what-is-ham-radio | COMMS | Reference | Institutional (attributed) | ARRL | HTML | T2 | 2026-09-08 | ACTIVE (via Wayback) |
+| FCC — Amateur Radio Service | https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service | COMMS | Reference | US-gov public domain | FCC | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback) |
+| FCC — Family Radio Service (FRS) | https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs | COMMS | Reference | US-gov public domain | FCC | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback) |
+| eCFR Title 47 Part 95 (FRS/GMRS/CB) | https://www.ecfr.gov/current/title-47/part-95/ | COMMS | Reference | US Code of Federal Regulations (public) | eCFR | HTML | T1 | 2026-09-08 | ACTIVE (live 200) |
+| American Red Cross — Make a Plan | https://www.redcross.org/get-help/how-to-prepare-for-emergencies/make-a-plan.html | COMMS/SEC | Reference | Institutional (attributed) | Red Cross | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback) |

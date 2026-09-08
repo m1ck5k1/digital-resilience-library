@@ -32,6 +32,10 @@ Designed to be **AI-aware** — see `AGENTS.md` for the operating rules.
 ## Content — ENERGY (off-grid / backup power)
 - `library/reference/ENERGY/README.md` — ENERGY index
 - `library/reference/ENERGY/backup-power-generators.md` — portable generators: CO hazard, safe placement, CO alarms, electrical/fuel safety
+- `library/reference/ENERGY/batteries-portable-power.md` — power-capacity vs energy-capacity (W vs kWh); read your device ratings (EIA)
+- `library/reference/ENERGY/solar-basics-backup.md` — cell→module→array, DC→AC inverter (DOE)
+- `library/reference/ENERGY/reducing-demand-outage.md` — surge protection, fridge/freezer food-safety, full-tank (Ready.gov)
+- `library/reference/ENERGY/safe-fuel-chemical-handling.md` — household hazardous-waste rules (EPA)
 
 ## Content — SAN (sanitation & hygiene)
 - `library/reference/SAN/README.md` — SAN index
@@ -49,6 +53,9 @@ Designed to be **AI-aware** — see `AGENTS.md` for the operating rules.
 - `library/reference/SHELTER/README.md` — SHELTER index
 - `library/reference/SHELTER/cold-survival-hypothermia.md` — hypothermia recognition/first aid, frostbite, wind chill, layering (not medical advice)
 - `library/reference/SHELTER/emergency-shelter.md` — BLISS site doctrine, keep-it-small rule, lean-to, snow shelters, CO/ventilation
+- `library/reference/SHELTER/storm-protection-hurricane-tornado.md` — hurricane/tornado home protection + refuge (Ready.gov)
+- `library/reference/SHELTER/flood-awareness-waterproofing.md` — flood risk, 6"/1' rule, elevate valuables, check valves/sump (Ready.gov)
+- `library/reference/SHELTER/shelter-in-place.md` — when to stay vs leave; seal-a-room method (Ready.gov)
 
 ## Content — MED (medical & first aid)
 - `library/reference/MED/README.md` — MED index
@@ -56,6 +63,7 @@ Designed to be **AI-aware** — see `AGENTS.md` for the operating rules.
 - `library/templates/MED-household-health-plan.md` — blank emergency health plan scaffold (members, contacts, meds, kit)
 
 ## Content — SEC / LEGAL / COMMS / KIDS (household-plan templates; filled data stays with user)
+- `library/reference/COMMS/emergency-radio-comms-modes.md` — universal comms: NOAA Weather Radio (162 MHz channels), ham, FRS/GMRS/CB, text-over-call (NOAA/FCC/eCFR/ARRL/Red Cross)
 - `library/templates/SEC-household-security-plan.md` — blank security plan scaffold (entry points, devices, codes, inventory)
 - `library/templates/LEGAL-important-papers-inventory.md` — blank map of where important documents live
 - `library/templates/COMMS-family-communication-plan.md` — blank family comms plan (out-of-area contact, meeting points)

@@ -411,6 +411,86 @@
       "license": "Public domain (US Government work)",
       "priority": "T1",
       "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/SHELTER/storm-protection-hurricane-tornado.md",
+      "category": "SHELTER",
+      "part": "Reference",
+      "title": "Shelter & Home — Storm Protection (Hurricane & Tornado)",
+      "source": "Ready.gov Hurricanes/Tornadoes",
+      "license": "US-gov public domain",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/SHELTER/flood-awareness-waterproofing.md",
+      "category": "SHELTER",
+      "part": "Reference",
+      "title": "Shelter & Home — Flood Awareness & Basic Waterproofing",
+      "source": "Ready.gov Floods",
+      "license": "US-gov public domain",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/SHELTER/shelter-in-place.md",
+      "category": "SHELTER",
+      "part": "Reference",
+      "title": "Shelter & Home — Shelter-in-Place (When to Stay & How)",
+      "source": "Ready.gov Shelter",
+      "license": "US-gov public domain",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/ENERGY/batteries-portable-power.md",
+      "category": "ENERGY",
+      "part": "Reference",
+      "title": "Energy & Power — Batteries & Portable Power",
+      "source": "US EIA",
+      "license": "US-gov public domain",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/ENERGY/solar-basics-backup.md",
+      "category": "ENERGY",
+      "part": "Reference",
+      "title": "Energy & Power — Solar Basics for Backup",
+      "source": "US DOE",
+      "license": "US-gov public domain",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/ENERGY/reducing-demand-outage.md",
+      "category": "ENERGY",
+      "part": "Reference",
+      "title": "Energy & Power — Reducing Demand in an Outage",
+      "source": "Ready.gov Power Outages",
+      "license": "US-gov public domain",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/ENERGY/safe-fuel-chemical-handling.md",
+      "category": "ENERGY",
+      "part": "Reference",
+      "title": "Energy & Power — Safe Fuel & Hazardous-Chemical Handling",
+      "source": "US EPA HHW",
+      "license": "US-gov public domain",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/COMMS/emergency-radio-comms-modes.md",
+      "category": "COMMS",
+      "part": "Reference",
+      "title": "Communications — Emergency Radio & Comms Modes",
+      "source": "NOAA/NWS; ARRL; FCC; eCFR; Red Cross",
+      "license": "US-gov public domain + institutional (attributed)",
+      "priority": "T1 (gov)/T2 (ARRL)",
+      "date": "2026-09-08"
     }
   ]
 }
