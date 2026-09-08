@@ -352,6 +352,16 @@
       "license": "CC0",
       "priority": "-",
       "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/SEC/home-neighborhood-security-awareness.md",
+      "category": "SEC",
+      "part": "Reference",
+      "title": "Security & Safety — Home & Neighborhood Security Awareness (CPTED, Entry-Point, Lighting, Alarms, Home Inventory)",
+      "source": "Ready.gov/DHS-FEMA; US EPA; NCPC; Wikipedia (CC BY-SA); III",
+      "license": "Institutional/public-domain + CC BY-SA (attributed); awareness only",
+      "priority": "T1-T2",
+      "date": "2026-09-08"
     }
   ]
 }

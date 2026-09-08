@@ -24,8 +24,12 @@ Security splits cleanly along the DRL's public/private line:
   **Fill locally; your specifics never enter this repo.**
 
 ## Reference docs (public)
-- *(in progress)* Home & neighborhood security *awareness* — being grounded in authoritative
-  sources; will appear here once verified and approved.
+- [`home-neighborhood-security-awareness.md`](./home-neighborhood-security-awareness.md) —
+  universal security *awareness*: life-safety (smoke/CO alarms, fire escape), CPTED,
+  entry-point design awareness, security lighting, and the home-inventory concept. Grounded in
+  Ready.gov / EPA / NCPC / Wikipedia (CC BY-SA) / III. **Awareness only — no household plan.**
+- *(may follow)* CO-alarm install and lighting lumen numbers, once verified against a
+  reachable source — currently flagged as not-verified rather than guessed.
 
 ## Why SEC sits in the build order
 With WATER/FOOD/ENERGY/SAN/NAV/SHELTER/MED covered, SEC adds the protection layer. Its

@@ -39,3 +39,11 @@
 | LEGAL important-papers inventory | (in-repo `library/templates/LEGAL-important-papers-inventory.md`) | LEGAL | Template | Original CC0 | DRL | Markdown | — | 2026-09-08 | ACTIVE |
 | COMMS family communication plan | (in-repo `library/templates/COMMS-family-communication-plan.md`) | COMMS | Template | Original CC0 | DRL | Markdown | — | 2026-09-08 | ACTIVE |
 | KIDS family emergency plan | (in-repo `library/templates/KIDS-family-emergency-plan.md`) | KIDS | Template | Original CC0 | DRL | Markdown | — | 2026-09-08 | ACTIVE |
+
+| Ready.gov — Home Fires | https://www.ready.gov/home-fires | SEC | Reference | US-gov public domain | DHS/FEMA | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback 20260908013550; live bot-blocks) |
+| US EPA — Carbon Monoxide's Impact on Indoor Air Quality | https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxides-impact-indoor-air-quality | SEC/SHELTER/ENERGY | Reference | Public domain | US EPA | HTML | T1 | 2026-09-08 | ACTIVE (live 200) |
+| NCPC — CPTED | http://ncpc.org/3cpted.htm | SEC | Reference | © NCPC (cite w/ attribution; not verbatim) | National Crime Prevention Council | HTML | T2 | 2026-09-08 | ACTIVE (via Wayback 19980514) |
+| Wikipedia — Crime prevention through environmental design | https://en.wikipedia.org/wiki/Crime_prevention_through_environmental_design | SEC | Reference | CC BY-SA 4.0 (attributed) | Wikipedia | HTML | T2/T3 | 2026-09-08 | ACTIVE (live 200) |
+| Wikipedia — Door security | https://en.wikipedia.org/wiki/Door_security | SEC | Reference | CC BY-SA 4.0 (attributed) | Wikipedia | HTML | T2/T3 | 2026-09-08 | ACTIVE (live 200) |
+| Wikipedia — Window security | https://en.wikipedia.org/wiki/Window_security | SEC | Reference | CC BY-SA 4.0 (attributed) | Wikipedia | HTML | T2/T3 | 2026-09-08 | ACTIVE (live 200) |
+| Insurance Information Institute — How to Create a Home Inventory | https://www.iii.org/article/how-create-home-inventory | SEC | Reference | © III (cite facts w/ attribution) | III | HTML | T2 | 2026-09-08 | ACTIVE (via Wayback 20140803) |
