@@ -271,6 +271,86 @@
       "license": "CC0",
       "priority": "-",
       "date": "2026-09-07"
+    },
+    {
+      "path": "library/reference/SEC/README.md",
+      "category": "SEC",
+      "part": "Reference (index)",
+      "title": "SEC — Index",
+      "source": "DRL origin",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/templates/SEC-household-security-plan.md",
+      "category": "SEC",
+      "part": "Template",
+      "title": "SEC — Household Security Plan (blank)",
+      "source": "DRL origin (blank scaffold)",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/LEGAL/README.md",
+      "category": "LEGAL",
+      "part": "Reference (index)",
+      "title": "LEGAL — Index",
+      "source": "DRL origin",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/templates/LEGAL-important-papers-inventory.md",
+      "category": "LEGAL",
+      "part": "Template",
+      "title": "LEGAL — Important-Papers Inventory (blank)",
+      "source": "DRL origin (blank scaffold)",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/COMMS/README.md",
+      "category": "COMMS",
+      "part": "Reference (index)",
+      "title": "COMMS — Index",
+      "source": "DRL origin",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/templates/COMMS-family-communication-plan.md",
+      "category": "COMMS",
+      "part": "Template",
+      "title": "COMMS — Family Communication Plan (blank)",
+      "source": "DRL origin (blank scaffold)",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/KIDS/README.md",
+      "category": "KIDS",
+      "part": "Reference (index)",
+      "title": "KIDS — Index",
+      "source": "DRL origin",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/templates/KIDS-family-emergency-plan.md",
+      "category": "KIDS",
+      "part": "Template",
+      "title": "KIDS — Family & Kids Emergency Plan (blank)",
+      "source": "DRL origin (blank scaffold)",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-08"
     }
   ]
 }

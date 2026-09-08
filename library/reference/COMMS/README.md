@@ -1,0 +1,27 @@
+---
+title: COMMS — Index
+category: COMMS
+part: Reference (index)
+source: DRL origin
+license: CC0
+date: 2026-09-08
+---
+
+# COMMS — Index
+
+> Category: **COMMS** · Communications · **Template only.**
+
+A communication plan is about *your* household's people, numbers, and meeting points. That's
+**household data**, so it stays **with you** (never in this repo) — the DRL provides a **blank
+scaffold** to build it.
+
+## Household template (`library/templates/`)
+- [`COMMS-family-communication-plan.md`](../templates/COMMS-family-communication-plan.md)
+  — a blank scaffold for who to reach, your **out-of-area contact** (the key to reconnecting),
+  meeting points, comms tools, and a radio/listening watch. Fill locally; your plan is private.
+
+## Why COMMS is template-only
+The frequencies/tools *could* be a public reference, but the genuinely life-saving part is the
+household's own contact map — which is identifying. A universal radio-how-to is better placed
+in NAV/SAN/LEARN as reference if added later. The safe public artifact here is the **blank
+form**. Per `AGENTS.md`, filled plans live under the user's own private/cold storage, never here.

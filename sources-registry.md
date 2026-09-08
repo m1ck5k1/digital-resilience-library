@@ -34,3 +34,8 @@
 | CDC — Stroke Signs and Symptoms / Act F.A.S.T. | https://www.cdc.gov/stroke/signs_symptoms.htm | MED | Reference | US gov public domain | CDC | HTML | T1 | 2026-09-08 | ACTIVE |
 | WHO — Stroke fact sheet | https://www.who.int/news-room/fact-sheets/detail/stroke | MED | Reference | WHO fact sheet (attributed) | WHO | HTML | T1 | 2026-09-08 | ACTIVE |
 | WHO — Cardiovascular Diseases fact sheet | https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases | MED | Reference | WHO fact sheet (attributed) | WHO | HTML | T1 | 2026-09-08 | ACTIVE |
+
+| SEC household security plan | (in-repo `library/templates/SEC-household-security-plan.md`) | SEC | Template | Original CC0 | DRL | Markdown | — | 2026-09-08 | ACTIVE |
+| LEGAL important-papers inventory | (in-repo `library/templates/LEGAL-important-papers-inventory.md`) | LEGAL | Template | Original CC0 | DRL | Markdown | — | 2026-09-08 | ACTIVE |
+| COMMS family communication plan | (in-repo `library/templates/COMMS-family-communication-plan.md`) | COMMS | Template | Original CC0 | DRL | Markdown | — | 2026-09-08 | ACTIVE |
+| KIDS family emergency plan | (in-repo `library/templates/KIDS-family-emergency-plan.md`) | KIDS | Template | Original CC0 | DRL | Markdown | — | 2026-09-08 | ACTIVE |

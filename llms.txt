@@ -55,6 +55,13 @@ Designed to be **AI-aware** — see `AGENTS.md` for the operating rules.
 - `library/reference/MED/emergency-response-cpr-stroke.md` — when to call 9-1-1, adult CPR (100–120/min, 30:2, ≥2 in), Hands-Only CPR, stroke F.A.S.T. (Red Cross/CDC/WHO; not medical advice)
 - `library/templates/MED-household-health-plan.md` — blank emergency health plan scaffold (members, contacts, meds, kit)
 
+## Content — SEC / LEGAL / COMMS / KIDS (household-plan templates; filled data stays with user)
+- `library/templates/SEC-household-security-plan.md` — blank security plan scaffold (entry points, devices, codes, inventory)
+- `library/templates/LEGAL-important-papers-inventory.md` — blank map of where important documents live
+- `library/templates/COMMS-family-communication-plan.md` — blank family comms plan (out-of-area contact, meeting points)
+- `library/templates/KIDS-family-emergency-plan.md` — blank kids/family emergency plan (contacts, carers, pickup)
+- Category indexes under `library/reference/{SEC,LEGAL,COMMS,KIDS}/README.md`
+
 ## Core principles
 - Value over volume · human-sourced, human-verifiable · offline-first · versioned + checksummed
 - **No household-private data in this repo** (filled data = user-owned JSON, backed up by user)
