@@ -62,6 +62,13 @@ Designed to be **AI-aware** — see `AGENTS.md` for the operating rules.
 - `library/templates/KIDS-family-emergency-plan.md` — blank kids/family emergency plan (contacts, carers, pickup)
 - Category indexes under `library/reference/{SEC,LEGAL,COMMS,KIDS}/README.md`
 
+## Content — LEARN (skills & trades)
+- `library/reference/LEARN/README.md` — LEARN index
+- `library/reference/LEARN/firecraft.md` — fire triangle, fire lays, lighting methods (FM 21-76)
+- `library/reference/LEARN/knots-ropework.md` — bowline, sheet bend, hitches, natural cordage; never-use-a-binding-knot-as-a-bend warning
+- `library/reference/LEARN/hand-tool-safety.md` — hand/power-tool safety baseline (OSHA 3080)
+- `library/reference/LEARN/improvised-field-tools.md` — making blades, spears, clubs, bola, cordage (FM 21-76)
+
 ## Core principles
 - Value over volume · human-sourced, human-verifiable · offline-first · versioned + checksummed
 - **No household-private data in this repo** (filled data = user-owned JSON, backed up by user)

@@ -361,6 +361,56 @@
       "license": "Institutional/public-domain + CC BY-SA (attributed); awareness only",
       "priority": "T1-T2",
       "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/LEARN/README.md",
+      "category": "LEARN",
+      "part": "Reference (index)",
+      "title": "LEARN — Index",
+      "source": "DRL origin",
+      "license": "CC0",
+      "priority": "-",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/LEARN/firecraft.md",
+      "category": "LEARN",
+      "part": "Reference",
+      "title": "Skills & Trades — Firecraft (Building & Lighting a Fire)",
+      "source": "US Army FM 21-76 Survival",
+      "license": "Public domain (US Government work)",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/LEARN/knots-ropework.md",
+      "category": "LEARN",
+      "part": "Reference",
+      "title": "Skills & Trades — Knots & Ropework",
+      "source": "Wikipedia (CC BY-SA); US Army FM 21-76",
+      "license": "CC BY-SA 4.0 (attributed); public domain (FM)",
+      "priority": "T3 (knots)/T1 (cordage)",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/LEARN/hand-tool-safety.md",
+      "category": "LEARN",
+      "part": "Reference",
+      "title": "Skills & Trades — Hand-Tool Safety",
+      "source": "OSHA 3080 — Hand and Power Tools",
+      "license": "US government public domain",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/LEARN/improvised-field-tools.md",
+      "category": "LEARN",
+      "part": "Reference",
+      "title": "Skills & Trades — Improvised Field Tools",
+      "source": "US Army FM 21-76 Survival",
+      "license": "Public domain (US Government work)",
+      "priority": "T1",
+      "date": "2026-09-08"
     }
   ]
 }

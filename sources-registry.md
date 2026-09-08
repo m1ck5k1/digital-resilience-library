@@ -47,3 +47,8 @@
 | Wikipedia — Door security | https://en.wikipedia.org/wiki/Door_security | SEC | Reference | CC BY-SA 4.0 (attributed) | Wikipedia | HTML | T2/T3 | 2026-09-08 | ACTIVE (live 200) |
 | Wikipedia — Window security | https://en.wikipedia.org/wiki/Window_security | SEC | Reference | CC BY-SA 4.0 (attributed) | Wikipedia | HTML | T2/T3 | 2026-09-08 | ACTIVE (live 200) |
 | Insurance Information Institute — How to Create a Home Inventory | https://www.iii.org/article/how-create-home-inventory | SEC | Reference | © III (cite facts w/ attribution) | III | HTML | T2 | 2026-09-08 | ACTIVE (via Wayback 20140803) |
+
+| FM 21-76 US Army Survival Manual (firecraft, improvised tools, cordage) | https://archive.org/details/FM2176USARMYSURVIVALMANUAL | LEARN/NAV/SHELTER | Reference | Public domain (US Army) | US Dept. of the Army | PDF | T1 | 2026-09-08 | ACTIVE |
+| OSHA 3080 — Hand and Power Tools | https://www.osha.gov/sites/default/files/publications/osha3080.pdf | LEARN | Reference | US gov public domain | OSHA | PDF | T1 | 2026-09-08 | ACTIVE (live 200) |
+| Wikipedia — Knots (Bowline, Clove hitch, Two half-hitches, Sheet bend, Reef knot, Taut-line hitch) | https://en.wikipedia.org/wiki/Bowline (and linked knot pages) | LEARN | Reference | CC BY-SA 4.0 (attributed) | Wikipedia | HTML (MediaWiki extracts) | T3 | 2026-09-08 | ACTIVE (live 200) |
+| LEARN category index | (in-repo `library/reference/LEARN/README.md`) | LEARN | Reference (index) | CC0 | DRL | Markdown | — | 2026-09-08 | ACTIVE |
