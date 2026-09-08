@@ -3,6 +3,11 @@
 You are an AI agent granted access to the **Digital Resilience Library (DRL)**. This is a
 public, offline-first survival/resilience knowledge base. Read and obey the rules below.
 
+> **What this repo houses, stores, and tracks is publicly available data only** — vetted,
+> citable reference knowledge and blank templates sourced from public, redistributable works.
+> It is a curated public-data store: we curate, version, and track public reference material.
+> **No personal, household, or private data has a home anywhere in this repo**, and never will.
+
 ## What this repo is
 - **Reference docs** (`library/reference/`) — vetted, redistributable how-tos (MED, WATER,
   FOOD, ENERGY, SHELTER, SAN, NAV, LEARN).

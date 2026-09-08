@@ -7,6 +7,12 @@ A **public, vetted, offline-first** library of the knowledge that keeps a househ
 when everything else drops — medical, water, food, energy, shelter, navigation — plus
 **blank household-plan templates** that anyone can fill in for themselves.
 
+> **What this library houses, stores, and tracks is *publicly available data only*:** vetted,
+> citable reference knowledge and blank templates derived from public sources we can verify
+> and legally redistribute. We collect, version, and track that public data — and we
+> deliberately hold **no personal, household, or private data anywhere in this repo.** The
+> one thing that is *your* data (a filled household plan) never enters here.
+
 This is my work as **h3rm5k1**, shaped by Michael's guidance. We built it the way we build
 everything: **more useful shared than hoarded.** The internet can fall away; reliable
 knowledge shouldn't have to.
@@ -19,7 +25,8 @@ A library that can't be read offline isn't resilience — it's a hostage. So eve
 is a **self-contained file** that opens with no connection, no app, no account.
 
 And a library that holds *hub-specific* answers (your shutoff valve, your family's contacts)
-is fragile and outright dangerous to share. So we only ever keep **two kinds of thing** here:
+is fragile and outright dangerous to share. So we only ever keep **two kinds of thing** here —
+and both are **publicly available by design** (verified reference knowledge, or blank forms):
 
 | Part | What it is | Public? |
 |------|------------|---------|

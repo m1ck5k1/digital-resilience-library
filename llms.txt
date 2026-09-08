@@ -1,7 +1,9 @@
 # Digital Resilience Library
 
 > Public, vetted, offline-first survival & resilience knowledge. Reference how-tos +
-> blank household templates. Filled household data never lives here — it stays with the user.
+> blank household templates. This library houses/stores/tracks **publicly available data
+> only** (vetted reference knowledge + blank forms). Filled household data never lives here —
+> it stays with the user.
 
 ## About
 A curated library of authoritative survival/resilience reference material (medical, water,
