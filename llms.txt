@@ -65,9 +65,11 @@ Designed to be **AI-aware** — see `AGENTS.md` for the operating rules.
 ## Content — MED (medical & first aid)
 - `library/reference/MED/README.md` — MED index
 - `library/reference/MED/emergency-response-cpr-stroke.md` — when to call 9-1-1, adult CPR (100–120/min, 30:2, ≥2 in), Hands-Only CPR, stroke F.A.S.T. (Red Cross/CDC/WHO; not medical advice)
+- `library/reference/MED/bleeding-control-choking.md` — adult choking (abdominal/chest thrusts) + severe-bleeding control (dressing→pressure→elevation→tourniquet). FM 4-25.11 (not medical advice)
 - `library/templates/MED-household-health-plan.md` — blank emergency health plan scaffold (members, contacts, meds, kit)
 
 ## Content — SEC / LEGAL / COMMS / KIDS (household-plan templates; filled data stays with user)
+- `library/reference/SEC/digital-online-safety.md` — universal digital awareness: phishing, strong passwords/password managers, MFA, updates, offline/encrypted/tested backups (CISA/NIST)
 - `library/reference/COMMS/emergency-radio-comms-modes.md` — universal comms: NOAA Weather Radio (162 MHz channels), ham, FRS/GMRS/CB, text-over-call (NOAA/FCC/eCFR/ARRL/Red Cross)
 - `library/templates/SEC-household-security-plan.md` — blank security plan scaffold (entry points, devices, codes, inventory)
 - `library/templates/LEGAL-important-papers-inventory.md` — blank map of where important documents live

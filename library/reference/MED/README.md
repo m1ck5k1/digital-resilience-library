@@ -21,6 +21,10 @@ unverified gets in.
   9-1-1, the check-the-scene sequence, **adult CPR** (100–120/min, 30:2, ≥2 in), **Hands-Only
   CPR**, and **stroke recognition (Act F.A.S.T.)**. Grounded in Red Cross + CDC, with WHO
   context. **Not medical advice.**
+- [`bleeding-control-choking.md`](./bleeding-control-choking.md) — adult choking (abdominal/
+  chest thrusts) and severe-bleeding control (dressing → pressure → elevation → tourniquet
+  last-resort). Grounded in US Army FM 4-25.11. **Not medical advice.** *(draft-and-hold —
+  pending approval)*
 
 ## Household template (`library/templates/`)
 - [`MED-household-health-plan.md`](../templates/MED-household-health-plan.md) — fill in YOUR

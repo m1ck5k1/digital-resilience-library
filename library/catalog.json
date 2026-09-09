@@ -552,6 +552,26 @@
       "license": "US-gov public domain + institutional (attributed)",
       "priority": "T1",
       "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/MED/bleeding-control-choking.md",
+      "category": "MED",
+      "part": "Reference",
+      "title": "Medical & First Aid — Bleeding Control & Choking (Adult)",
+      "source": "US Army FM 4-25.11 (FM 21-11) First Aid",
+      "license": "Public domain (US Government work)",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/SEC/digital-online-safety.md",
+      "category": "SEC",
+      "part": "Reference",
+      "title": "Security & Safety — Digital & Online Safety Awareness",
+      "source": "CISA; NIST SP 800-63B",
+      "license": "US-gov public domain (attributed)",
+      "priority": "T1",
+      "date": "2026-09-08"
     }
   ]
 }

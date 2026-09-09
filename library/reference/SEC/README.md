@@ -28,6 +28,10 @@ Security splits cleanly along the DRL's public/private line:
   universal security *awareness*: life-safety (smoke/CO alarms, fire escape), CPTED,
   entry-point design awareness, security lighting, and the home-inventory concept. Grounded in
   Ready.gov / EPA / NCPC / Wikipedia (CC BY-SA) / III. **Awareness only — no household plan.**
+- [`digital-online-safety.md`](./digital-online-safety.md) — universal digital-resilience
+  awareness: phishing, strong passwords/password managers, MFA, software updates, and offline/
+  encrypted/tested backups. Grounded in CISA + NIST SP 800-63B. *(draft-and-hold — pending
+  approval)*
 - *(may follow)* CO-alarm install and lighting lumen numbers, once verified against a
   reachable source — currently flagged as not-verified rather than guessed.
 
