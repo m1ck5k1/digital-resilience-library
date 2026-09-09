@@ -67,6 +67,9 @@ That's discipline we already run here and it's the same for anyone who uses this
 - `CATEGORIES.md` — taxonomy + the Reference/Template mapping
 - `sources-registry.md` — every source, its license, and its part
 - `library/catalog.json` — the machine-readable navigation index
+- `docs/LONG-TERM-EVOLUTION.md` — design brief for evolving toward medium/long-term survival
+  (integrity over time, a learning/Practice tier, artifact longevity, and the "may be a person's
+  only source of knowledge" responsibility)
 
 ---
 
