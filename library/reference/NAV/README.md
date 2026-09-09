@@ -25,6 +25,9 @@ and FM 21-76 (Survival) — public-domain US government works.
   what NOT to trust (moss).
 - [`emergency-signaling.md`](./emergency-signaling.md) — being seen and heard: signal fires +
   smoke, signal mirror, strobe/pen flares, whistle, ground-to-air code, SOS.
+- [`dead-reckoning-pacing.md`](./dead-reckoning-pacing.md) — distance + route technique: your
+  personal pace count, distance/time estimation, steering marks, detours, and the deliberate 10°
+  offset. FM 3-25.26.
 
 ## Why navigation sits late in the build order
 WATER → FOOD → ENERGY → SAN → **NAV** → SHELTER. For a household in a disaster, navigation

@@ -492,6 +492,36 @@
       "license": "US-gov public domain + institutional (attributed)",
       "priority": "T1 (gov)/T2 (ARRL)",
       "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/NAV/dead-reckoning-pacing.md",
+      "category": "NAV",
+      "part": "Reference",
+      "title": "Navigation — Dead Reckoning & Pacing",
+      "source": "US Army FM 3-25.26",
+      "license": "Public domain (US Government work)",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/LEARN/trapping-snares.md",
+      "category": "LEARN",
+      "part": "Reference",
+      "title": "Skills & Trades — Trapping & Snares",
+      "source": "US Army FM 21-76",
+      "license": "Public domain (US Government work)",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/SAN/household-emergency-waste.md",
+      "category": "SAN",
+      "part": "Reference",
+      "title": "Sanitation — Household & Emergency Waste",
+      "source": "WHO disaster WASH manual; Ready.gov",
+      "license": "WHO (attributed); US-gov public domain",
+      "priority": "T1",
+      "date": "2026-09-08"
     }
   ]
 }

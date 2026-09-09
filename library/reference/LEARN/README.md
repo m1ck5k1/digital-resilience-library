@@ -25,6 +25,9 @@ institutional sources.
   baseline (what misuse does, sparks, PPE, power-tool precautions). Grounded in OSHA 3080.
 - [`improvised-field-tools.md`](./improvised-field-tools.md) — making a blade from stone/bone/wood/
   metal, spears & arrow points, clubs/bola/throwing-stick, and natural cordage. Grounded in FM 21-76.
+- [`trapping-snares.md`](./trapping-snares.md) — placement, scent control + channelization, bait,
+  and specific snare/deadfall constructions (simple/drag/twitch-up, squirrel pole, Ojibwa pole,
+  figure-4/Paiute deadfall, bow trap). Grounded in FM 21-76.
 
 ## Why LEARN completes the set
 LEARN is the last of the core survival categories (after WATER, FOOD, ENERGY, SAN, NAV, SHELTER,

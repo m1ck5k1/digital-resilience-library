@@ -42,12 +42,14 @@ Designed to be **AI-aware** — see `AGENTS.md` for the operating rules.
 - `library/reference/SAN/emergency-water-quantity.md` — water needs per person/day; safe water (boil / bleach / tablets)
 - `library/reference/SAN/hand-hygiene.md` — critical hand-washing moments; soap vs ash
 - `library/reference/SAN/excreta-disposal.md` — trench & pit latrines; well ≥15 m from sanitation
+- `library/reference/SAN/household-emergency-waste.md` — solid/household waste, refuse pits/trenches, segregation, hygienic waste, greywater, post-flood cleanup (WHO + Ready.gov)
 
 ## Content — NAV (navigation & survival)
 - `library/reference/NAV/README.md` — NAV index
 - `library/reference/NAV/map-compass-lost.md` — azimuths, declination, pace count, SURVIVAL lost-procedure
 - `library/reference/NAV/natural-navigation.md` — sun / shadow / watch / North Star / Southern Cross
 - `library/reference/NAV/emergency-signaling.md` — signal fires, mirror, flares, whistle, ground-to-air, SOS
+- `library/reference/NAV/dead-reckoning-pacing.md` — personal pace count, distance/time estimation, steering marks, detours, deliberate 10° offset (FM 3-25.26)
 
 ## Content — SHELTER (emergency shelter & cold survival)
 - `library/reference/SHELTER/README.md` — SHELTER index
@@ -76,6 +78,7 @@ Designed to be **AI-aware** — see `AGENTS.md` for the operating rules.
 - `library/reference/LEARN/knots-ropework.md` — bowline, sheet bend, hitches, natural cordage; never-use-a-binding-knot-as-a-bend warning
 - `library/reference/LEARN/hand-tool-safety.md` — hand/power-tool safety baseline (OSHA 3080)
 - `library/reference/LEARN/improvised-field-tools.md` — making blades, spears, clubs, bola, cordage (FM 21-76)
+- `library/reference/LEARN/trapping-snares.md` — placement, scent/channelization, snare+deadfall constructions (FM 21-76)
 
 ## Core principles
 - Value over volume · human-sourced, human-verifiable · offline-first · versioned + checksummed

@@ -24,6 +24,9 @@ hygiene fundamentals.
   vs **ash** as an acceptable substitute when soap is gone.
 - [`excreta-disposal.md`](./excreta-disposal.md) — trench & pit latrine basics when plumbing
   is out, and the critical **well ≥15 m from sanitation** separation rule.
+- [`household-emergency-waste.md`](./household-emergency-waste.md) — general solid/household
+  waste, refuse containers & pits/trenches, incineration limits, waste segregation, menstrual/
+  hygienic waste, greywater/soakage, and post-flood home cleanup. WHO + Ready.gov.
 
 ## Place in the build order
 WATER → FOOD → ENERGY → **SAN** → (SHELTER, NAV…). Sanitation follows energy because, once the
