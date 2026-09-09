@@ -17,3 +17,6 @@ secrets/
 .DS_Store
 *.local
 tmp/
+# Python bytecode cache
+__pycache__/
+*.pyc
