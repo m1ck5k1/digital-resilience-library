@@ -5,6 +5,7 @@ part: Reference
 source: US federal + WHO guidance (Ready.gov/FEMA; WHO disaster manual & fact sheets; EPA)
 license: Public-domain/WHO practice (attributed); guidance paraphrased, not quoted verbatim
 date: 2026-09-07
+verified: 2026-09-07
 priority: T1
 ---
 # Sanitation & Hygiene — Emergency Water Quantity & Safe Water

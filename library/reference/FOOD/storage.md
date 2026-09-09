@@ -5,6 +5,7 @@ part: Reference
 source: Well-attested public-domain emergency-preparedness guidance (Ready.gov / extension-service baseline)
 license: Public-domain general guidance (attribution preserved)
 date: 2026-09-06
+verified: 2026-09-06
 priority: T1
 ---
 

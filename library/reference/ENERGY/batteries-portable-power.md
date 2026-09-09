@@ -5,6 +5,7 @@ part: Reference
 source: US EIA — Energy Storage for Electricity Generation; Use of Electricity
 license: US-gov public domain
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1
 ---
 # Energy & Power — Batteries & Portable Power (Read & Understand Capacity)

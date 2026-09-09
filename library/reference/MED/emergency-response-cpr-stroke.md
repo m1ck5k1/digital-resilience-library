@@ -5,6 +5,7 @@ part: Reference
 source: American Red Cross (CPR/Hands-Only); CDC (stroke recognition); WHO (CVD/stroke context)
 license: Institutional guidance (attributed) — public-health reference, not medical advice
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1
 ---
 # Medical & First Aid — Emergency Response, Recognition & Basic CPR

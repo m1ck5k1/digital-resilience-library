@@ -5,6 +5,7 @@ part: Reference
 source: OSHA 3080 — Hand and Power Tools (US OSHA)
 license: US government public domain
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1
 ---
 # Skills & Trades — Hand-Tool Safety

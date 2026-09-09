@@ -5,6 +5,7 @@ part: Reference
 source: WHO emergency-health guidance (disaster-management manual)
 license: Public-domain/WHO practice (attributed); guidance paraphrased, not quoted verbatim
 date: 2026-09-07
+verified: 2026-09-07
 priority: T1
 ---
 # Sanitation & Hygiene — Emergency Excreta Disposal (Trench & Pit Latrines)

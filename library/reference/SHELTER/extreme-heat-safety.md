@@ -5,6 +5,7 @@ part: Reference
 source: CDC; NOAA/NWS; FEMA "Are You Ready?"; Ready.gov Extreme Heat
 license: US-gov public domain + institutional (attributed)
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1
 ---
 # Shelter & Home — Extreme Heat Safety

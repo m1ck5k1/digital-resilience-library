@@ -5,6 +5,7 @@ part: Reference
 source: US Army FM 21-76 Survival & FM 3-25.26 Map Reading and Land Navigation
 license: Public domain (US Government work)
 date: 2026-09-07
+verified: 2026-09-07
 priority: T1
 ---
 # Navigation — Natural Navigation (Sun, Stars, Shadow)

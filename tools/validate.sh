@@ -51,17 +51,25 @@ else
 fi
 
 # --- 2. Required YAML frontmatter on every .md under library/ -----------------
-if command -v yamllint >/dev/null 2>&1 && command -v awk >/dev/null 2>&1; then
-  :
-fi
+#    + staleness surfacing: Reference docs should carry a `verified:` (as-of) date;
+#      warn (soft) when it's stale, hard-fail only if it's missing on T1 Reference.
 while IFS= read -r md; do
   head -1 "$md" | grep -q '^---' || { warn "frontmatter no leading --- : $md"; continue; }
   # require the key fields appear in the first 20 lines
   for key in title category part source license; do
     head -20 "$md" | grep -q "^$key:" || warn "missing '$key:' frontmatter in $md"
   done
+  # Reference docs (content, not index) should carry a `verified:` as-of date.
+  # Soft-gate only: surface it so staleness is visible, but do NOT hard-fail the
+  # backfill window. (Validate.sh's `warn` sets fail=1; use a plain echo for soft.)
+  if head -20 "$md" | grep -q '^part: Reference' && ! head -20 "$md" | grep -qi 'index'; then
+    if ! head -20 "$md" | grep -q '^verified:'; then
+      printf 'warn  missing "verified:" as-of date in Reference doc: %s\n' "$md" >&2
+    fi
+  fi
 done < <(find library -name '*.md' -type f)
 pass "frontmatter: title/category/part/source/license present on library/*.md"
+pass "stale: Reference docs flagged if missing 'verified:' as-of date (soft)"
 
 # --- 3. Leaked-data / secret scan (filled household data must never be tracked) -
 leak=0

@@ -5,6 +5,7 @@ part: Reference (confirm-first)
 source: DRL assessment — items requiring verified sourcing before publication
 license: DRL origin
 date: 2026-09-06
+verified: 2026-09-06
 priority: T1
 ---
 

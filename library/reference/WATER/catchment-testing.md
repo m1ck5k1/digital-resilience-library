@@ -5,6 +5,7 @@ part: Reference
 source: General emergency-water practice (CDC baseline)
 license: General guidance
 date: 2026-09-06
+verified: 2026-09-06
 priority: T2
 ---
 # Water — Catchment & Testing

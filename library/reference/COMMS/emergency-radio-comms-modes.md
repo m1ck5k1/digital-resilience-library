@@ -5,6 +5,7 @@ part: Reference
 source: NOAA/NWS; ARRL; FCC; eCFR Title 47 Part 95; American Red Cross
 license: US-gov public domain + institutional (attributed)
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1 (NOAA/NWS, FCC, eCFR) / T2 (ARRL)
 ---
 # Communications — Emergency Radio & Comms Modes

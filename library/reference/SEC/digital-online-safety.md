@@ -5,6 +5,7 @@ part: Reference
 source: CISA Secure Our World; CISA Recognize/Report Phishing; CISA Use Strong Passwords; CISA Turn On MFA; CISA & MS-ISAC Ransomware Guide; NIST SP 800-63B
 license: US-gov public domain (attributed)
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1
 ---
 # Security & Safety — Digital & Online Safety Awareness

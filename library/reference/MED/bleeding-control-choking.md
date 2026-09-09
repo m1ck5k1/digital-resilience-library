@@ -5,6 +5,7 @@ part: Reference
 source: US Army FM 4-25.11 (FM 21-11) First Aid, Dec 2002 / Ch.1 Jul 2004
 license: Public domain (US Government work; approved for public release, distribution unlimited)
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1
 ---
 # Medical & First Aid — Bleeding Control & Choking (Adult)

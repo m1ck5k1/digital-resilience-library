@@ -5,6 +5,7 @@ part: Reference
 source: Ready.gov — Power Outages (US DHS/FEMA)
 license: US-gov public domain
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1
 ---
 # Energy & Power — Reducing Demand in an Outage

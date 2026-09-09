@@ -5,6 +5,7 @@ part: Reference
 source: CDC / NIOSH; NOAA NWS; American Red Cross; US Army FM 21-76
 license: Public-domain / institutional guidance (attributed); emergency reference, not medical advice
 date: 2026-09-07
+verified: 2026-09-07
 priority: T1
 ---
 # Shelter & Heat — Cold Survival & Hypothermia

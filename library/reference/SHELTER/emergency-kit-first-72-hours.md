@@ -5,6 +5,7 @@ part: Reference
 source: FEMA "Are You Ready?"; Ready.gov Build-a-Kit
 license: US-gov public domain
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1
 ---
 # Shelter & Home — Emergency Kit & First 72 Hours

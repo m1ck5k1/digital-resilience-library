@@ -5,6 +5,7 @@ part: Reference
 source: US Army FM 21-76 Survival Manual
 license: Public domain (US Government work)
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1
 ---
 # Skills & Trades — Firecraft (Building & Lighting a Fire)

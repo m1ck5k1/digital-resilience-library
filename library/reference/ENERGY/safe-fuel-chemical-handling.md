@@ -5,6 +5,7 @@ part: Reference
 source: US EPA — Household Hazardous Waste
 license: US-gov public domain
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1
 ---
 # Energy & Power — Safe Fuel & Hazardous-Chemical Handling

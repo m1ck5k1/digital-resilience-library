@@ -5,6 +5,7 @@ part: Reference
 source: US Army FM 3-25.26 Map Reading and Land Navigation (2001)
 license: Public domain (US Government work)
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1
 ---
 # Navigation — Dead Reckoning & Pacing

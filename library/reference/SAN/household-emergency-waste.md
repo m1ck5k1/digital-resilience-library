@@ -5,6 +5,7 @@ part: Reference
 source: WHO Manual on Water and Environmental Sanitation for Disaster Management (2006); Ready.gov Returning Home
 license: WHO (reproduce w/ attribution, not-for-sale doc, paraphrased); Ready.gov US-gov public domain
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1
 ---
 # Sanitation — Household & Emergency Waste

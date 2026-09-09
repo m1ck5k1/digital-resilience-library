@@ -5,6 +5,7 @@ part: Reference
 source: US Army FM 3-25.26 Map Reading and Land Navigation (2001) & FM 21-76 Survival
 license: Public domain (US Government work; approved for public release)
 date: 2026-09-07
+verified: 2026-09-07
 priority: T1
 ---
 # Navigation — Map & Compass (Lost-Proofing)

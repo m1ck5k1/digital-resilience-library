@@ -5,6 +5,7 @@ part: Reference
 source: WHO emergency-health guidance (disaster manual; diarrhoeal-disease factsheet)
 license: Public-domain/WHO practice (attributed); guidance paraphrased, not quoted verbatim
 date: 2026-09-07
+verified: 2026-09-07
 priority: T1
 ---
 # Sanitation & Hygiene — Hand Washing (with Limited Water & Soap vs Ash)

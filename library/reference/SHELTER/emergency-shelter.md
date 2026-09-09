@@ -5,6 +5,7 @@ part: Reference
 source: US Army FM 21-76 Survival (Ch.5 & Ch.15)
 license: Public domain (US Government work)
 date: 2026-09-07
+verified: 2026-09-07
 priority: T1
 ---
 # Shelter & Heat — Emergency & Improvised Shelter

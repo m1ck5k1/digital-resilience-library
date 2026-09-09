@@ -5,6 +5,7 @@ part: Reference
 source: Wikipedia (CC BY-SA); US Army FM 21-76 Survival Manual (cordage/lashing)
 license: CC BY-SA 4.0 (attributed) + public domain (FM 21-76)
 date: 2026-09-08
+verified: 2026-09-08
 priority: T3 (knots) / T1 (cordage)
 ---
 # Skills & Trades — Knots & Ropework

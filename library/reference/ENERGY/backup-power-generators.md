@@ -5,6 +5,7 @@ part: Reference
 source: US federal guidance (EPA CO-factsheet & infographics; Ready.gov; CPSC)
 license: US-federal public-domain practice (attribution preserved)
 date: 2026-09-07
+verified: 2026-09-07
 priority: T1
 ---
 # Energy — Off-Grid & Backup Power (Generators, Safety, CO)

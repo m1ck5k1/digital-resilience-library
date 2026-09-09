@@ -5,6 +5,7 @@ part: Reference
 source: Ready.gov/DHS-FEMA; US EPA; National Crime Prevention Council; Wikipedia (CC BY-SA); Insurance Information Institute
 license: Institutional/public-domain + CC BY-SA (attributed); awareness guidance, not a household plan
 date: 2026-09-08
+verified: 2026-09-08
 priority: T1 (gov) / T2-T3 (CPTED, industry)
 ---
 # Security & Safety — Home & Neighborhood Security Awareness
