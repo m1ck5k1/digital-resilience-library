@@ -31,6 +31,14 @@ Cross, and US Army FM 21-76 (survival shelter doctrine).
   attic. Ready.gov.
 - [`shelter-in-place.md`](./shelter-in-place.md) — when to stay vs leave, the seal-a-room (plastic
   + duct tape) method, and the limits of sheltering in place. Ready.gov.
+- [`emergency-kit-first-72-hours.md`](./emergency-kit-first-72-hours.md) — the **first-72 hours**
+  on-ramp: water (1 gal/person/day), universal kit categories, kit locations (home/work/car), and
+  when to grab-and-go / evacuate. FEMA + Ready.gov.
+- [`home-fire-safety.md`](./home-fire-safety.md) — smoke/CO alarms, escape planning, prevention
+  (cooking/heating/electrical), and Stop-Drop-Roll response. FEMA + Ready.gov.
+- [`extreme-heat-safety.md`](./extreme-heat-safety.md) — the mirror to cold-survival: heat index,
+  at-risk groups, staying cool/hydrated, and heat-cramp/exhaustion/heatstroke recognition + care
+  (not medical advice). CDC/NOAA/FEMA/Ready.gov.
 
 ## Why shelter sits here
 WATER → FOOD → ENERGY → SAN → NAV → **SHELTER**. Navigation gets you to a safe place; shelter

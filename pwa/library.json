@@ -521,6 +521,36 @@
       "license": "WHO (attributed); US-gov public domain",
       "priority": "T1",
       "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/SHELTER/emergency-kit-first-72-hours.md",
+      "category": "SHELTER",
+      "part": "Reference",
+      "title": "Shelter & Home — Emergency Kit & First 72 Hours",
+      "source": "FEMA Are You Ready?; Ready.gov Build-a-Kit",
+      "license": "US-gov public domain",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/SHELTER/home-fire-safety.md",
+      "category": "SHELTER",
+      "part": "Reference",
+      "title": "Shelter & Home — Home Fire Safety",
+      "source": "FEMA Are You Ready?; Ready.gov Home Fires",
+      "license": "US-gov public domain",
+      "priority": "T1",
+      "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/SHELTER/extreme-heat-safety.md",
+      "category": "SHELTER",
+      "part": "Reference",
+      "title": "Shelter & Home — Extreme Heat Safety",
+      "source": "CDC; NOAA/NWS; FEMA; Ready.gov",
+      "license": "US-gov public domain + institutional (attributed)",
+      "priority": "T1",
+      "date": "2026-09-08"
     }
   ]
 }

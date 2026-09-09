@@ -58,6 +58,9 @@ Designed to be **AI-aware** — see `AGENTS.md` for the operating rules.
 - `library/reference/SHELTER/storm-protection-hurricane-tornado.md` — hurricane/tornado home protection + refuge (Ready.gov)
 - `library/reference/SHELTER/flood-awareness-waterproofing.md` — flood risk, 6"/1' rule, elevate valuables, check valves/sump (Ready.gov)
 - `library/reference/SHELTER/shelter-in-place.md` — when to stay vs leave; seal-a-room method (Ready.gov)
+- `library/reference/SHELTER/emergency-kit-first-72-hours.md` — the first-72h on-ramp: water (1 gal/day), universal kit categories, home/work/car kits, evacuate triggers (FEMA/Ready.gov)
+- `library/reference/SHELTER/home-fire-safety.md` — smoke/CO alarms, escape planning, prevention, Stop-Drop-Roll (FEMA/Ready.gov)
+- `library/reference/SHELTER/extreme-heat-safety.md` — heat index, at-risk groups, staying cool/hydrated, heat-illness recognition (CDC/NWS/FEMA; not medical advice)
 
 ## Content — MED (medical & first aid)
 - `library/reference/MED/README.md` — MED index

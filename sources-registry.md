@@ -71,3 +71,9 @@
 | FM 21-76 Survival Manual (trapping & snares, Ch.8) | https://archive.org/details/FM2176USARMYSURVIVALMANUAL | LEARN | Reference | Public domain (US Army) | US Dept. of the Army | PDF | T1 | 2026-09-08 | ACTIVE |
 | WHO — Water & Environmental Sanitation for Disaster Management (household waste, Ch.15-16) | https://iris.who.int/handle/10665/205479 | SAN | Reference | WHO (reproduce w/ attribution, not-for-sale doc; paraphrased) | WHO | PDF | T1 | 2026-09-08 | ACTIVE (live Iris fetch, pdftotext) |
 | Ready.gov — Returning Home | https://www.ready.gov/returning-home | SAN/SHELTER | Reference | US-gov public domain | DHS/FEMA | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback 20201016184720) |
+FEMA — Are You Ready? (emergency kit, fire, heat chapters) | https://archive.org/details/FemaEmergencyHandbook-areYouReady | SHELTER | Reference | US-gov public domain | FEMA | PDF/HTML | T1 | 2026-09-08 | ACTIVE (live djvu.txt fetch) |
+| Ready.gov — Build a Kit | https://www.ready.gov/kit | SHELTER | Reference | US-gov public domain | DHS/FEMA | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback 20260908143019) |
+| Ready.gov — Home Fires | https://www.ready.gov/home-fires | SHELTER | Reference | US-gov public domain | DHS/FEMA | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback 20260908143009) |
+| Ready.gov — Extreme Heat | https://www.ready.gov/heat | SHELTER | Reference | US-gov public domain | DHS/FEMA | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback 20260908143011) |
+| CDC — About Heat and Your Health | https://www.cdc.gov/heat-health/about/index.html | SHELTER | Reference | US-gov public domain | CDC | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback 20250614073021) |
+| NOAA/NWS — Heat Safety | https://www.weather.gov/safety/heat | SHELTER | Reference | US-gov public domain | NOAA/NWS | HTML | T1 | 2026-09-08 | ACTIVE (via Wayback 20260908150942) |
