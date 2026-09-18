@@ -23,8 +23,7 @@ unverified gets in.
   context. **Not medical advice.**
 - [`bleeding-control-choking.md`](./bleeding-control-choking.md) — adult choking (abdominal/
   chest thrusts) and severe-bleeding control (dressing → pressure → elevation → tourniquet
-  last-resort). Grounded in US Army FM 4-25.11. **Not medical advice.** *(draft-and-hold —
-  pending approval)*
+  last-resort). Grounded in US Army FM 4-25.11. **Not medical advice.**
 
 ## Household template (`library/templates/`)
 - [`MED-household-health-plan.md`](../templates/MED-household-health-plan.md) — fill in YOUR
@@ -39,7 +38,10 @@ It is seeded **Reference-first** to make clear that the value is verifiable, fir
 knowledge — not treatment, which always belongs with professionals.
 
 ## Status note on this seed
-The MED reference is staged for **human re-approval** before push (per the MED gate). It
-covers recognition + basic adult CPR + stroke F.A.S.T.. Planned future additions (severe
-bleeding / Stop the Bleed, choking, anaphylaxis) are **not yet authored** and will only be
-added from verified T1 sources — never guesswork.
+**Approved & live (2026-09-18).** The MED gate (public MED = T1-institutional only + "not
+medical advice" disclaimer) is cleared for the current references — recognition + basic adult
+CPR + stroke F.A.S.T. (`emergency-response-cpr-stroke.md`, Red Cross/CDC/WHO) and adult
+bleeding control & choking (`bleeding-control-choking.md`, US Army FM 4-25.11). Both carry the
+disclaimer and were verified against the underlying sources. Planned future additions (severe
+bleeding / Stop the Bleed, anaphylaxis) remain **not yet authored** and will only be added
+from verified T1 sources — never guesswork.
