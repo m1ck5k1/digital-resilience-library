@@ -572,6 +572,16 @@
       "license": "US-gov public domain (attributed)",
       "priority": "T1",
       "date": "2026-09-08"
+    },
+    {
+      "path": "library/reference/FOOD/comfrey-fertility-plant.md",
+      "category": "FOOD",
+      "part": "Reference",
+      "title": "Recovered Knowledge — Comfrey as a Fertility Plant",
+      "source": "Multiple verified (Cornell Small Farms/SARE, NC Extension, MU Extension, SARE, EPA, Wikipedia)",
+      "license": "CC0/public-domain (recovered knowledge)",
+      "priority": "T1",
+      "date": "2026-09-09"
     }
   ]
 }

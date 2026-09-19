@@ -20,6 +20,7 @@ storable food.
   conditions, rotation, and the well-attested rules of thumb (dry-storage temp, danger-zone).
 - [`preservation.md`](./preservation.md) — methods that extend food without power: drying,
   canning, fermenting, root-cellar, salting/sugaring. General method guidance.
+- [`comfrey-fertility-plant.md`](./comfrey-fertility-plant.md) — dynamic accumulator (deep taproot pulls K+Ca up), chop-and-drop mulch, comfrey tea liquid feed (gas-independent N+K), with the correct pyrrolizidine-alkaloid caveat (for soil, not drinking). [Cornell Small Farms/SARE, NC Extension, MU Extension, EPA]
 - [`sources-and-safe-hold.md`](./sources-and-safe-hold.md) — where known precise shelf-life
   and canning-process numbers are REQUIRED to be confirmed (flagged for the review gate).
 
