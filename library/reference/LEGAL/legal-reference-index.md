@@ -38,4 +38,45 @@ These go **only** in the blank `library/templates/LEGAL-important-papers-invento
 3. Offline rendering: self-contained Markdown; links noted but content described (the link is a pointer, not the truth). ✅
 4. Editorial + part gate: category = LEGAL; part = Reference; no identifying content present (self-executing check); framework aligns with `CATEGORIES.md` (Template-only for household-specific data; Reference for universal legal-form framework); no household-private data leaks; no claim presented without source. ✅
 
+---
+
+## Practical records kit (how to keep & organize) — consolidated 2026-09-18
+
+> Merged from the earlier `important-papers-records` draft (deduplicated 2026-09-18): this is
+> the *organization* half. The forms *framework* above is the "what exists"; this section is
+> the "how to keep it so you can reach it under stress." FEMA EFFAK / Ready.gov concept.
+
+**Three buckets (what to have on hand):**
+- **Identity & personal** — government photo ID, birth certificate, marriage/divorce/adoption,
+  citizenship, passport; social-security / national-ID card kept *separate* from your wallet;
+  password / account-access to secure digital accounts.
+- **Financial** — bank/brokerage account numbers + branch contact; 1–2 recent statements;
+  insurance policy numbers + claims line; mortgage/lease/loan/vehicle-title records; recent tax
+  summaries; for the self-employed: business registrations, licences, client/payroll records.
+  (This is the **Emergency Financial First Aid Kit (EFFAK)** idea: a pre-assembled, portable
+  "financial inventory".)
+- **Health & directives** — health-insurance card + provider contacts; current medication list
+  and standing prescriptions/allergies; living will / advance directive, health-care
+  proxy/POA, organ-donation record, wills/trusts (keep the original where your executor can
+  find it — and tell them where).
+
+**Where to keep it — 3-2-1:**
+- One copy at home in a fire-/water-resistant "grab-and-go" folder/safe.
+- A second copy **off-site** (trusted person, bank box, or encrypted digital backup).
+- Back up digitally (scans/photos) in an encrypted store — a photo of an ID is *reference*,
+  not a legal original.
+- Share locations deliberately: an advance directive no one can find is as useless as none.
+
+**When you must evacuate:** take the kit if ready — identity + insurance + essential-contact
+list first; with only minutes, grab phones, chargers, ID, wallet, meds, keys.
+
+**Refresh:** review twice a year (e.g. at clock-change time) and after any major change —
+move, marriage/divorce, new insurance, new loan, job change; confirm a trusted person outside
+the household knows what's in the kit and where it lives.
+
+> This page holds **no identifying data**. Lists/values belong in the blank
+> `LEGAL-important-papers-inventory` template and stay with the user, never in this repo.
+
+---
+
 > **Not legal advice.** Confirm forms against the current official source for your jurisdiction and consult a licensed attorney for any personal estate / family-law matter.

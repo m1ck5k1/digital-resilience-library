@@ -584,24 +584,34 @@
       "date": "2026-09-09"
     },
     {
-      "path": "library/reference/LEGAL/important-papers-records.md",
+      "path": "library/reference/LEGAL/legal-reference-index.md",
       "category": "LEGAL",
       "part": "Reference",
-      "title": "Legal & Records — Important Papers & Records Guide",
-      "source": "FEMA — Emergency Financial First Aid Kit (EFFAK); Ready.gov",
-      "license": "US-federal public-domain practice (attribution preserved); not legal advice",
+      "title": "LEGAL — Essential Documents & Forms + Practical Records Kit",
+      "source": "US government forms (USCourts, IRS, SSA, Ready.gov); FEMA EFFAK; public estate-planning guides",
+      "license": "US government public domain + CC0 (DRL synthesis); attribution preserved per form",
       "priority": "T1",
       "date": "2026-09-18"
     },
     {
-      "path": "library/reference/KIDS/family-emergency-plan-framework.md",
+      "path": "library/reference/KIDS/kids-family-preparedness.md",
       "category": "KIDS",
       "part": "Reference",
-      "title": "Family & Kids — Family Emergency Plan Framework",
-      "source": "Ready.gov / FEMA Make a Plan; child-focused preparedness guidance",
-      "license": "US-federal public-domain practice (attribution preserved); general guidance",
+      "title": "KIDS — Family & Kids Emergency Preparedness (framework)",
+      "source": "American Red Cross; Ready.gov / FEMA; AAP family-preparedness guidance",
+      "license": "US-government public domain + institutional guidance (attributed); CC0 (DRL framework synthesis)",
       "priority": "T1",
-      "date": "2026-09-18"
+      "date": "2026-09-13"
+    },
+    {
+      "path": "library/reference/NAV/lost-procedural-navigation.md",
+      "category": "NAV",
+      "part": "Reference",
+      "title": "NAV — Lost & Procedural Navigation",
+      "source": "US Army FM 3-25.26; FM 21-76 Survival; NOAA natural-navigation practice (public); DRL synthesis",
+      "license": "Public domain (US Government work); CC0 (DRL synthesis)",
+      "priority": "T1",
+      "date": "2026-09-13"
     }
   ]
 }
