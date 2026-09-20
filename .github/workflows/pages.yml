@@ -3,6 +3,7 @@ name: deploy-github-pages
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -15,13 +16,24 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  # Integrity gate — runs on EVERY push AND every PR against any branch. This is the
+  # required status check named 'validate' that protects main; it must go green before
+  # any PR can merge (branch protection depends on this exact job name).
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # Integrity gates — fail deploy if the library breaks its own rules
       - name: Validate library gates
         run: tools/validate.sh
+
+  # Deploy — main-push only. Runs AFTER validate passes, so the published site is always
+  # built from a catalog-consistent tree (validate gates it upstream via branch protection).
+  deploy:
+    needs: validate
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
