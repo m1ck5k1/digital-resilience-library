@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-09-06",
+  "generated": "2026-09-18",
   "artifacts": [
     {
       "path": "library/reference/WATER/treatment-disinfection.md",
@@ -581,6 +581,26 @@
       "license": "CC0/public-domain (recovered knowledge)",
       "priority": "T1",
       "date": "2026-09-09"
+    },
+    {
+      "path": "library/reference/LEGAL/important-papers-records.md",
+      "category": "LEGAL",
+      "part": "Reference",
+      "title": "Legal & Records — Important Papers & Records Guide",
+      "source": "FEMA — Emergency Financial First Aid Kit (EFFAK); Ready.gov",
+      "license": "US-federal public-domain practice (attribution preserved); not legal advice",
+      "priority": "T1",
+      "date": "2026-09-18"
+    },
+    {
+      "path": "library/reference/KIDS/family-emergency-plan-framework.md",
+      "category": "KIDS",
+      "part": "Reference",
+      "title": "Family & Kids — Family Emergency Plan Framework",
+      "source": "Ready.gov / FEMA Make a Plan; child-focused preparedness guidance",
+      "license": "US-federal public-domain practice (attribution preserved); general guidance",
+      "priority": "T1",
+      "date": "2026-09-18"
     }
   ]
 }
