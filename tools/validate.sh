@@ -50,6 +50,27 @@ else
   warn "python3 not found — cannot run JSON checks"
 fi
 
+# --- 1b. Forward index coverage: every library reference/template .md MUST be indexed ---
+#    Closes the cross-lane dedup gap: a doc committed under library/ without being added
+#    to catalog.json + library.json silently desyncs the canonical map and makes a category
+#    look "thin" to the next lane. Same-commit rule, enforced here.
+if command -v python3 >/dev/null 2>&1; then
+  python3 - <<'PY' || fail=1
+import json, glob, sys
+indexed = {a["path"] for a in json.load(open("library/catalog.json"))["artifacts"]}
+missing = []
+for md in glob.glob("library/reference/**/*.md", recursive=True) + glob.glob("library/templates/*.md"):
+    if md not in indexed:
+        missing.append(md)
+for m in sorted(missing):
+    print("unindexed library doc — add to catalog.json AND pwa/library.json in the same commit:", m, file=sys.stderr)
+sys.exit(0 if not missing else 1)
+PY
+  pass "index: every library/reference + library/templates .md is present in catalog.json"
+else
+  warn "python3 not found — cannot run catalog-coverage check"
+fi
+
 # --- 2. Required YAML frontmatter on every .md under library/ -----------------
 #    + staleness surfacing: Reference docs should carry a `verified:` (as-of) date;
 #      warn (soft) when it's stale, hard-fail only if it's missing on T1 Reference.

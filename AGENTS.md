@@ -58,6 +58,25 @@ public, offline-first survival/resilience knowledge base. Read and obey the rule
 - Keep Markdown files under `library/`. Keep build/capture scripts under `tools/`.
 - Follow the existing doc header format (category, part, source, license, date).
 
+### Multi-lane coordination — avoid cross-machine duplication
+This repo is worked by **multiple agent lanes across machines** (Hermes on more than one box,
+Claude, and the human) on a shared `main`. A lane authoring a category it believes is "thin"
+may in fact be racing another lane that just filled it. Before adding any content:
+
+1. **Pull first, every time.** `git pull origin main` (or `fetch` + `reset --hard origin/main`)
+   so you're working against the actual tip — a stale clone is how duplicates happen.
+2. **Check the catalog, not your assumptions.** Grep `library/catalog.json` (and
+   `library/reference/<CAT>/`) for an existing artifact on that topic. If one exists, **extend /
+   reconcile it** — never create a near-duplicate. Read `git log --oneline -5 -- <dir>` to see
+   if another lane touched the category recently.
+3. **Same-commit index rule (enforced).** Any `.md` added under `library/reference/` or
+   `library/templates/` MUST also be added to `library/catalog.json` **and** `pwa/library.json`
+   in the **same commit**. `tools/validate.sh` fails if a library doc is unindexed. Never leave
+   the canonical map desynced — that is exactly what makes a category look "thin" to the next lane.
+4. **Log what you change.** After landing content, note it (commit subject: `content(<cat>): …`)
+   so the next lane can see the category is covered. If a coordination issue recurs, raise it
+   here rather than re-authoring.
+
 ## Autonomy mandate (direction of record)
 The eventual goal is to run this repo **autonomously** under the **80/20 rule**: the agent
 manages **~80%** of repo management (routine curation, capture, validation, catalog, commit,
