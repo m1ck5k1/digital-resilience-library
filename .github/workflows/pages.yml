@@ -34,6 +34,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Inject build info (commit SHA + YY-MM-DD) into PWA header
+        run: |
+          SHA="${{ github.sha }}"
+          DATE="${{ github.event.head_commit.timestamp }}"
+          if [ -z "$DATE" ]; then DATE="$(date -u '+%Y-%m-%d')"; fi
+          # Trim to YY-MM-DD (drop century) so the 'upd:' header line doesn't wrap
+          DATE="${DATE:2:8}"
+          sed -i "s|__BUILD_SHA__|$SHA|g; s|__BUILD_DATE__|$DATE|g" pwa/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
