@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-09-18",
+  "generated": "2026-10-09",
   "format": "machine-readable navigation index (AI-aware)",
   "artifacts": [
     {
@@ -11,7 +11,8 @@
       "source": "CDC — Making Water Safe in an Emergency",
       "license": "US-federal public-domain practice (attribution preserved)",
       "priority": "T1",
-      "date": "2026-09-06"
+      "date": "2026-09-06",
+      "sha256": "5ada9aef3191956a6d301753f444ec3429b56c38c4f08271d8e037aff7b5bf6e"
     },
     {
       "path": "library/reference/WATER/storage.md",
@@ -21,7 +22,8 @@
       "source": "US federal preparedness baseline (FEMA/Ready.gov practice)",
       "license": "US-federal public-domain practice",
       "priority": "T1",
-      "date": "2026-09-06"
+      "date": "2026-09-06",
+      "sha256": "f4cbd38baa04b7bdff6d626e290c1800d8130cbad5c8b2cd1b6e7893a0140268"
     },
     {
       "path": "library/reference/WATER/catchment-testing.md",
@@ -31,7 +33,8 @@
       "source": "General emergency-water practice (CDC baseline)",
       "license": "General guidance",
       "priority": "T2",
-      "date": "2026-09-06"
+      "date": "2026-09-06",
+      "sha256": "de46778efdb7946daeef476dbc7bf7542df2b2e55fc43889dba486edfb8a6fc2"
     },
     {
       "path": "library/reference/WATER/README.md",
@@ -41,7 +44,8 @@
       "source": "DRL origin",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-06"
+      "date": "2026-09-06",
+      "sha256": "c65663da2b19c2332caf7388fc23c4cc02742a287395641dd4004c392ee75dd4"
     },
     {
       "path": "library/templates/WATER-household-supply.md",
@@ -51,7 +55,8 @@
       "source": "DRL origin (blank scaffold)",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-06"
+      "date": "2026-09-06",
+      "sha256": "80a4560d106622c33ae8912ae575f0558c3d9804b88bae76f224a85545d90d02"
     },
     {
       "path": "library/reference/FOOD/README.md",
@@ -61,7 +66,8 @@
       "source": "DRL origin",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-06"
+      "date": "2026-09-06",
+      "sha256": "8f86db567c2639aa8f76fdb45dbb2ef13ee0ea4c6da4ef963a3e54e04da76035"
     },
     {
       "path": "library/reference/FOOD/storage.md",
@@ -71,7 +77,8 @@
       "source": "Well-attested public-domain emergency-preparedness guidance",
       "license": "Public-domain general guidance",
       "priority": "T1",
-      "date": "2026-09-06"
+      "date": "2026-09-06",
+      "sha256": "174c58419df8ea4c37a9635ade1529b6de28f91f8a91a035798b8a9d1d311639"
     },
     {
       "path": "library/reference/FOOD/preservation.md",
@@ -81,7 +88,8 @@
       "source": "Well-attested public-domain preservation methods",
       "license": "Public-domain general guidance",
       "priority": "T2",
-      "date": "2026-09-06"
+      "date": "2026-09-06",
+      "sha256": "40fb65140974ca248edd444e57b767b3e815bbdf2b75a13088db12d7d5a953b7"
     },
     {
       "path": "library/reference/FOOD/sources-and-safe-hold.md",
@@ -91,7 +99,8 @@
       "source": "DRL assessment",
       "license": "DRL origin",
       "priority": "HOLD (DRL control list, not verified content)",
-      "date": "2026-09-06"
+      "date": "2026-09-06",
+      "sha256": "ed3e2cc0159aa342e67768fc9089397798257dfbb60100c59f43eaf7c621d449"
     },
     {
       "path": "library/templates/FOOD-pantry-plan.md",
@@ -101,7 +110,8 @@
       "source": "DRL origin (blank scaffold)",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-06"
+      "date": "2026-09-06",
+      "sha256": "7416f778d4cefbe555e6628e78c856795a611140cad5bae6a8a2b16ce121d0b4"
     },
     {
       "path": "library/reference/ENERGY/README.md",
@@ -111,7 +121,8 @@
       "source": "DRL origin",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "de16bc5762fff77b91f1ede83fa1dcc30778292a2a4522df3ed4054b077da4d8"
     },
     {
       "path": "library/reference/ENERGY/backup-power-generators.md",
@@ -121,7 +132,8 @@
       "source": "EPA / Ready.gov-FEMA / CPSC",
       "license": "US-federal public-domain practice (attribution preserved)",
       "priority": "T1",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "166aa72d2cd4d8801e5a14a7eac5c73534e38444746db4f1d5e0fbc07b12c2a5"
     },
     {
       "path": "library/reference/SAN/README.md",
@@ -131,7 +143,8 @@
       "source": "DRL origin",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "54bb664a484e47c721a1dd3f0cd22188b918c3127923f9c7468bc807f3f6cab1"
     },
     {
       "path": "library/reference/SAN/emergency-water-quantity.md",
@@ -141,7 +154,8 @@
       "source": "Ready.gov / FEMA; WHO; EPA",
       "license": "Public-domain/WHO practice (attributed, paraphrased)",
       "priority": "T1",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "a7c7683dc5aa6f2255d5f6cec60d87a1ab1c9bab9b529dc60a753ea10f222005"
     },
     {
       "path": "library/reference/SAN/hand-hygiene.md",
@@ -151,7 +165,8 @@
       "source": "WHO emergency-health guidance",
       "license": "Public-domain/WHO practice (attributed, paraphrased)",
       "priority": "T1",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "1a5464138cfaf0d0c2b8b75bd8040c58add646ce8431965732b903e8fbc51797"
     },
     {
       "path": "library/reference/SAN/excreta-disposal.md",
@@ -161,7 +176,8 @@
       "source": "WHO emergency-health guidance",
       "license": "Public-domain/WHO practice (attributed, paraphrased)",
       "priority": "T1",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "e1f46ff6acee5cc0f7f840a5ec14dc327cb8ff80425e4905e0e710a6a06f96ca"
     },
     {
       "path": "library/templates/ENERGY-household-backup-plan.md",
@@ -171,7 +187,8 @@
       "source": "DRL origin (blank scaffold)",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "58c4e228bb0670f859337d21c7c376cf974dbaf91199df4d6b69cc1338581dc5"
     },
     {
       "path": "library/reference/NAV/README.md",
@@ -181,7 +198,8 @@
       "source": "DRL origin",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "ec8b5deb54e92fe0ccad8c59ae7dcb01b1ac53169f20fec9b92e11ba2780a6ba"
     },
     {
       "path": "library/reference/NAV/map-compass-lost.md",
@@ -191,7 +209,8 @@
       "source": "US Army FM 3-25.26 & FM 21-76",
       "license": "Public domain (US Government work)",
       "priority": "T1",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "51f2d220ef04fba143ffcdece6d0cf491868e8ba1d2fdd243e54cf9ebbdc60c3"
     },
     {
       "path": "library/reference/NAV/natural-navigation.md",
@@ -201,7 +220,8 @@
       "source": "US Army FM 21-76 & FM 3-25.26",
       "license": "Public domain (US Government work)",
       "priority": "T1",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "cd035e54f65873b32a520d8af26c61110b77b9b52adeb1cd24998b22a9f86982"
     },
     {
       "path": "library/reference/NAV/emergency-signaling.md",
@@ -211,7 +231,8 @@
       "source": "US Army FM 21-76",
       "license": "Public domain (US Government work)",
       "priority": "T1",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "e8a95bbec4158e60e77383dd42199b9059329ea4488a04e30813efbec3b5fb46"
     },
     {
       "path": "library/reference/SHELTER/README.md",
@@ -221,7 +242,8 @@
       "source": "DRL origin",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "38318f23044b43db233881fd81723ccc9b7221d4b351198f0279da173d6ff14e"
     },
     {
       "path": "library/reference/SHELTER/cold-survival-hypothermia.md",
@@ -231,7 +253,8 @@
       "source": "CDC/NIOSH; NOAA NWS; Red Cross; FM 21-76",
       "license": "Public-domain/institutional (attributed); not medical advice",
       "priority": "T1",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "9869ebbe60a99ec344efdfe35591f8a11fbd011d0161d0ca9befc94d8f885c20"
     },
     {
       "path": "library/reference/SHELTER/emergency-shelter.md",
@@ -241,7 +264,8 @@
       "source": "US Army FM 21-76",
       "license": "Public domain (US Government work)",
       "priority": "T1",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "d6e25ee65ac39d13f8b96b91265798e778700292c29bf2eda8fab65af9089d4a"
     },
     {
       "path": "library/reference/MED/README.md",
@@ -251,7 +275,8 @@
       "source": "DRL origin",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "7a4bbccde4e631af0eaaf5ade6a39c54da8f0f4e36249be34a66795e1f41ddcd"
     },
     {
       "path": "library/reference/MED/emergency-response-cpr-stroke.md",
@@ -261,7 +286,8 @@
       "source": "American Red Cross; CDC; WHO",
       "license": "Institutional guidance (attributed); not medical advice",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "0ede8cc61158b20b350bd05f07ac2dfb9da2ea5b3199798dcac23f1b0a9e29f5"
     },
     {
       "path": "library/templates/MED-household-health-plan.md",
@@ -271,7 +297,8 @@
       "source": "DRL origin (blank scaffold)",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-07"
+      "date": "2026-09-07",
+      "sha256": "5a1f633c65e95be99a2da27a807c16fe9c8f9d56b09d4c8d1b2cb9e8157029b5"
     },
     {
       "path": "library/reference/SEC/README.md",
@@ -281,7 +308,8 @@
       "source": "DRL origin",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "53ce122e4ee06b34376ed2c2ffbfa3da570c4872e38818fbac4332b230bbd4a2"
     },
     {
       "path": "library/templates/SEC-household-security-plan.md",
@@ -291,7 +319,8 @@
       "source": "DRL origin (blank scaffold)",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "78510594763ec764dd826f12796149ea219480755861ab29f473d17acabe5597"
     },
     {
       "path": "library/reference/LEGAL/README.md",
@@ -301,7 +330,8 @@
       "source": "DRL origin",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "17cee514f4afdd2e02db66ba40fcc8107002303565257edcbeba9d165e833a49"
     },
     {
       "path": "library/templates/LEGAL-important-papers-inventory.md",
@@ -311,7 +341,8 @@
       "source": "DRL origin (blank scaffold)",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "8836e424ce3ee95420d95fc78ec706c95c1f2dd214f7ca4991cd66e49c75f410"
     },
     {
       "path": "library/reference/COMMS/README.md",
@@ -321,7 +352,8 @@
       "source": "DRL origin",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "4b71e18b0e88c62c92bd099b08e244dc1c329ff307da3b318bdcf58ebaf731ec"
     },
     {
       "path": "library/templates/COMMS-family-communication-plan.md",
@@ -331,7 +363,8 @@
       "source": "DRL origin (blank scaffold)",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "8b93ea11997895059eda4bde2cbd91817d054b1fc4ad0c9bf408986f52d58a5b"
     },
     {
       "path": "library/reference/KIDS/README.md",
@@ -341,7 +374,8 @@
       "source": "DRL origin",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "6a539f9d0706470f797005e9bbc8e09fe093ea783cdfe4661d583f87e97ba4ca"
     },
     {
       "path": "library/templates/KIDS-family-emergency-plan.md",
@@ -351,7 +385,8 @@
       "source": "DRL origin (blank scaffold)",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "043aa27f3613ebfe75a520c56d61f65bcb289e1f8af030bcb8548735f7f2814f"
     },
     {
       "path": "library/reference/SEC/home-neighborhood-security-awareness.md",
@@ -361,7 +396,8 @@
       "source": "Ready.gov/DHS-FEMA; US EPA; NCPC; Wikipedia (CC BY-SA); III",
       "license": "Institutional/public-domain + CC BY-SA (attributed); awareness only",
       "priority": "T1-T2",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "261e53ea2b220d8ba6e7c0a452b116670716477f080a526d981bce974205337f"
     },
     {
       "path": "library/reference/LEARN/README.md",
@@ -371,7 +407,8 @@
       "source": "DRL origin",
       "license": "CC0",
       "priority": "-",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "2f73d1580e474e65703a0d7dc6dd5e608a751674df2c0c8c7bcf6a6f6cfa081f"
     },
     {
       "path": "library/reference/LEARN/firecraft.md",
@@ -381,7 +418,8 @@
       "source": "US Army FM 21-76 Survival",
       "license": "Public domain (US Government work)",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "89ba7b603c13279c8f744ad43e9a060203fc5bf3c8ecfadaaf3a9f6fd2d9fe26"
     },
     {
       "path": "library/reference/LEARN/knots-ropework.md",
@@ -391,7 +429,8 @@
       "source": "Wikipedia (CC BY-SA); US Army FM 21-76",
       "license": "CC BY-SA 4.0 (attributed); public domain (FM)",
       "priority": "T3 (knots)/T1 (cordage)",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "807b8c21c2da673894f20826e7ed3af31f7d9d6dc9b2711e3ab237b8af7e3f24"
     },
     {
       "path": "library/reference/LEARN/hand-tool-safety.md",
@@ -401,7 +440,8 @@
       "source": "OSHA 3080 — Hand and Power Tools",
       "license": "US government public domain",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "1281d1969e760f192ef69ed2c296fe09a75656a33052c46c2ea476de01242306"
     },
     {
       "path": "library/reference/LEARN/improvised-field-tools.md",
@@ -411,7 +451,8 @@
       "source": "US Army FM 21-76 Survival",
       "license": "Public domain (US Government work)",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "166917273e52a61aa73894339839fc66a78eca1971bfa5a3262be05bff5e65ca"
     },
     {
       "path": "library/reference/SHELTER/storm-protection-hurricane-tornado.md",
@@ -421,7 +462,8 @@
       "source": "Ready.gov Hurricanes/Tornadoes",
       "license": "US-gov public domain",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "1e8da02754ac382a42a07a93d8bfc95a74449181ec657987fea1472c34643289"
     },
     {
       "path": "library/reference/SHELTER/flood-awareness-waterproofing.md",
@@ -431,7 +473,8 @@
       "source": "Ready.gov Floods",
       "license": "US-gov public domain",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "256c88f0696ce892e8c811acc46cd4528014f5f1b215995b657af9b495791a9e"
     },
     {
       "path": "library/reference/SHELTER/shelter-in-place.md",
@@ -441,7 +484,8 @@
       "source": "Ready.gov Shelter",
       "license": "US-gov public domain",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "8ff95f328199eb3a8d24ecc235cd680b7cf277579cbf6a2bc0b4615c67717455"
     },
     {
       "path": "library/reference/ENERGY/batteries-portable-power.md",
@@ -451,7 +495,8 @@
       "source": "US EIA",
       "license": "US-gov public domain",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "a98b39f5ad349870791e9d110def62507606da2433303dd807948029b46de913"
     },
     {
       "path": "library/reference/ENERGY/solar-basics-backup.md",
@@ -461,7 +506,8 @@
       "source": "US DOE",
       "license": "US-gov public domain",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "5bc8a66f9fae950275268ab36a031e62f7d17bdfd7ad23fede40560527ef87ff"
     },
     {
       "path": "library/reference/ENERGY/reducing-demand-outage.md",
@@ -471,7 +517,8 @@
       "source": "Ready.gov Power Outages",
       "license": "US-gov public domain",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "5ac3b3b5851d0bef490b08fa10e95d181b47e45af21bcdab93fece4522364f62"
     },
     {
       "path": "library/reference/ENERGY/safe-fuel-chemical-handling.md",
@@ -481,7 +528,8 @@
       "source": "US EPA HHW",
       "license": "US-gov public domain",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "514196ad55035af42d64255575bc331fddf5fc5329dc649abd35f7477cca5ac6"
     },
     {
       "path": "library/reference/COMMS/emergency-radio-comms-modes.md",
@@ -491,7 +539,8 @@
       "source": "NOAA/NWS; ARRL; FCC; eCFR; Red Cross",
       "license": "US-gov public domain + institutional (attributed)",
       "priority": "T1 (gov)/T2 (ARRL)",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "1dc70452052464e8a7df2d4039051625078a97e9e0d6a6cbbcd86e0ca552d995"
     },
     {
       "path": "library/reference/NAV/dead-reckoning-pacing.md",
@@ -501,7 +550,8 @@
       "source": "US Army FM 3-25.26",
       "license": "Public domain (US Government work)",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "955e22361625d282f1fcb4bb707dffbc8434dd06d6a27d45bf5736579c46b0a4"
     },
     {
       "path": "library/reference/LEARN/trapping-snares.md",
@@ -511,7 +561,8 @@
       "source": "US Army FM 21-76",
       "license": "Public domain (US Government work)",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "23fc722d810fb73db62c34d38221b084025ad4b95a92504b9a467cc0fc485ab7"
     },
     {
       "path": "library/reference/SAN/household-emergency-waste.md",
@@ -521,7 +572,8 @@
       "source": "WHO disaster WASH manual; Ready.gov",
       "license": "WHO (attributed); US-gov public domain",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "b8fe7b64371adec6f1bd3a35f3799400abe91dc62dbc2bcee3059a43ec0bade0"
     },
     {
       "path": "library/reference/SHELTER/emergency-kit-first-72-hours.md",
@@ -531,7 +583,8 @@
       "source": "FEMA Are You Ready?; Ready.gov Build-a-Kit",
       "license": "US-gov public domain",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "195dfa50a2fcc35b9a3752095236ac5a74d57755a12678d72bb662b6ed99fe90"
     },
     {
       "path": "library/reference/SHELTER/home-fire-safety.md",
@@ -541,7 +594,8 @@
       "source": "FEMA Are You Ready?; Ready.gov Home Fires",
       "license": "US-gov public domain",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "b43b002acd8ca002103fb96e406f734aaf44abbeae98478c9ff897fee2207d41"
     },
     {
       "path": "library/reference/SHELTER/extreme-heat-safety.md",
@@ -551,7 +605,8 @@
       "source": "CDC; NOAA/NWS; FEMA; Ready.gov",
       "license": "US-gov public domain + institutional (attributed)",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "55183b61ac698d253b22f6fd135d442d7143b46c58603c17af0fd95fd20b6e9d"
     },
     {
       "path": "library/reference/MED/bleeding-control-choking.md",
@@ -561,7 +616,8 @@
       "source": "US Army FM 4-25.11 (FM 21-11) First Aid",
       "license": "Public domain (US Government work)",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "c9ebdaaf5c94802a18e323e50b80a3db028d8c8eeedd22624f50e811f479a269"
     },
     {
       "path": "library/reference/SEC/digital-online-safety.md",
@@ -571,7 +627,8 @@
       "source": "CISA; NIST SP 800-63B",
       "license": "US-gov public domain (attributed)",
       "priority": "T1",
-      "date": "2026-09-08"
+      "date": "2026-09-08",
+      "sha256": "5893aa63fc8a2107e703fe75cba92adda5ceaf1018672e8a3ff58c027df11d84"
     },
     {
       "path": "library/reference/FOOD/comfrey-fertility-plant.md",
@@ -581,7 +638,8 @@
       "source": "Multiple verified (Cornell Small Farms/SARE, NC Extension, MU Extension, SARE, EPA, Wikipedia)",
       "license": "CC0/public-domain (recovered knowledge)",
       "priority": "T1",
-      "date": "2026-09-09"
+      "date": "2026-09-09",
+      "sha256": "5100acdb4288e61e1c0501399e0e4dee4c27a65550b186e41cfd894ab2b34801"
     },
     {
       "path": "library/reference/LEGAL/legal-reference-index.md",
@@ -591,7 +649,8 @@
       "source": "US government forms (USCourts, IRS, SSA, Ready.gov); FEMA EFFAK; public estate-planning guides",
       "license": "US government public domain + CC0 (DRL synthesis); attribution preserved per form",
       "priority": "T1",
-      "date": "2026-09-18"
+      "date": "2026-09-18",
+      "sha256": "f5dab1d1308c6e5e660e8f9a7f240451d50c300ef963924178215150d5b72d1c"
     },
     {
       "path": "library/reference/KIDS/kids-family-preparedness.md",
@@ -601,7 +660,8 @@
       "source": "American Red Cross; Ready.gov / FEMA; AAP family-preparedness guidance",
       "license": "US-government public domain + institutional guidance (attributed); CC0 (DRL framework synthesis)",
       "priority": "T1",
-      "date": "2026-09-13"
+      "date": "2026-09-13",
+      "sha256": "df509881ab87fd9261504b3631fb2769153c6d31be078bc4bb4d0221c68a400b"
     },
     {
       "path": "library/reference/NAV/lost-procedural-navigation.md",
@@ -611,7 +671,8 @@
       "source": "US Army FM 3-25.26; FM 21-76 Survival; NOAA natural-navigation practice (public); DRL synthesis",
       "license": "Public domain (US Government work); CC0 (DRL synthesis)",
       "priority": "T1",
-      "date": "2026-09-13"
+      "date": "2026-09-13",
+      "sha256": "3f7bfb12e6901ed692f94b687c1442cb67bec370571de6f1fef012f1620cbb92"
     }
   ]
 }

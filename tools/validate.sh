@@ -16,10 +16,10 @@ fail=0
 warn() { printf 'FAIL  %s\n' "$*" >&2; fail=1; }
 pass() { printf 'ok    %s\n' "$*" >&2; }
 
-# --- 1. JSON parses + schema sanity -------------------------------------------
+# --- 1. JSON parses + schema sanity + integrity ---------------------------------
 if command -v python3 >/dev/null 2>&1; then
   python3 - <<'PY' || fail=1
-import json, os, sys
+import json, os, sys, hashlib
 ok = True
 for f in ("library/catalog.json", "pwa/library.json"):
     try:
@@ -29,23 +29,26 @@ for f in ("library/catalog.json", "pwa/library.json"):
     if "artifacts" not in d or not isinstance(d["artifacts"], list):
         print("no artifacts list in", f, file=sys.stderr); ok = False
     for a in d["artifacts"]:
-        for k in ("path","category","part","title","source","license","priority","date"):
+        for k in ("path","category","part","title","source","license","priority","date","sha256"):
             if k not in a:
                 print("missing field", k, "in", a.get("path","?"), file=sys.stderr); ok = False
 # library.json == catalog.json minus top-level 'format'
 cat = json.load(open("library/catalog.json")); lib = json.load(open("pwa/library.json"))
-cat = dict(cat); cat.pop("format", None)
-if cat != lib:
+cat_minus = dict(cat); cat_minus.pop("format", None)
+if cat_minus != lib:
     print("library.json != catalog.json minus format", file=sys.stderr); ok = False
-# every artifact path resolves
-import json as _j
-cat = _j.load(open("library/catalog.json"))
+# every artifact path resolves AND its recorded sha256 matches the file on disk
 for a in cat["artifacts"]:
-    if not os.path.isfile(a["path"]):
-        print("missing file:", a["path"], file=sys.stderr); ok = False
+    p = a["path"]
+    if not os.path.isfile(p):
+        print("missing file:", p, file=sys.stderr); ok = False; continue
+    have = hashlib.sha256(open(p,"rb").read()).hexdigest()
+    if have != a.get("sha256"):
+        print("checksum mismatch:", p, file=sys.stderr); ok = False
 sys.exit(0 if ok else 1)
 PY
   pass "json: parse + catalog/library.json/artifacts sync"
+  pass "integrity: artifact sha256 matches file-on-disk"
 else
   warn "python3 not found — cannot run JSON checks"
 fi
